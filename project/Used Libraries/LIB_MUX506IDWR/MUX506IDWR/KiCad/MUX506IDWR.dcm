@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MUX506IDWR
+D MUX50x 36V, Low-Capacitance, Low-Charge-Injection, Precision, Analog Multiplexer
+K
+F http://www.ti.com/lit/gpn/mux506
+$ENDCMP
+#
+#End Doc Library
