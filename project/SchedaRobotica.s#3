@@ -11555,11 +11555,11 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/436500201_sd.pdf"&gt; Data
 <wire x1="441.96" y1="2.54" x2="441.96" y2="111.76" width="0.1524" layer="95"/>
 <wire x1="441.96" y1="111.76" x2="287.02" y2="111.76" width="0.1524" layer="95"/>
 <text x="287.02" y="0" size="1.778" layer="95">MOTOR DRIVERS</text>
-<wire x1="294.64" y1="137.16" x2="294.64" y2="116.84" width="0.1524" layer="95"/>
-<wire x1="294.64" y1="116.84" x2="337.82" y2="116.84" width="0.1524" layer="95"/>
-<wire x1="337.82" y1="116.84" x2="337.82" y2="137.16" width="0.1524" layer="95"/>
-<wire x1="337.82" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="95"/>
-<text x="294.64" y="114.3" size="1.778" layer="95">EXTR POWER CON</text>
+<wire x1="236.22" y1="259.08" x2="236.22" y2="238.76" width="0.1524" layer="95"/>
+<wire x1="236.22" y1="238.76" x2="279.4" y2="238.76" width="0.1524" layer="95"/>
+<wire x1="279.4" y1="238.76" x2="279.4" y2="259.08" width="0.1524" layer="95"/>
+<wire x1="279.4" y1="259.08" x2="236.22" y2="259.08" width="0.1524" layer="95"/>
+<text x="236.22" y="236.22" size="1.778" layer="95">EXTR POWER CON</text>
 <text x="157.48" y="114.3" size="1.778" layer="95">IMU</text>
 <wire x1="157.48" y1="187.96" x2="157.48" y2="116.84" width="0.1524" layer="95"/>
 <wire x1="157.48" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="95"/>
@@ -11878,14 +11878,14 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/436500201_sd.pdf"&gt; Data
 <instance part="GND27" gate="1" x="255.27" y="73.66" smashed="yes">
 <attribute name="VALUE" x="252.73" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="EXTR_PWR" gate="G$1" x="307.34" y="127" smashed="yes">
-<attribute name="NAME" x="311.15" y="132.08" size="1.778" layer="95" align="center-left"/>
+<instance part="EXTR_PWR" gate="G$1" x="248.92" y="248.92" smashed="yes">
+<attribute name="NAME" x="252.73" y="254" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="GND28" gate="1" x="332.74" y="121.92" smashed="yes">
-<attribute name="VALUE" x="330.2" y="119.38" size="1.778" layer="96"/>
+<instance part="GND28" gate="1" x="274.32" y="243.84" smashed="yes">
+<attribute name="VALUE" x="271.78" y="241.3" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="302.26" y="132.08" smashed="yes">
-<attribute name="VALUE" x="299.72" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="243.84" y="254" smashed="yes">
+<attribute name="VALUE" x="241.3" y="248.92" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -12137,8 +12137,8 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/436500201_sd.pdf"&gt; Data
 </segment>
 <segment>
 <pinref part="EXTR_PWR" gate="G$1" pin="2"/>
-<wire x1="327.66" y1="127" x2="332.74" y2="127" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="127" x2="332.74" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="248.92" x2="274.32" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="248.92" x2="274.32" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -12196,8 +12196,8 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/436500201_sd.pdf"&gt; Data
 </segment>
 <segment>
 <pinref part="EXTR_PWR" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="127" x2="302.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="127" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="248.92" x2="243.84" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="248.92" x2="243.84" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>

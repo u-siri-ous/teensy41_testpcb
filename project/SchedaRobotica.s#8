@@ -9063,6 +9063,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="353.06" y1="264.16" x2="353.06" y2="193.04" width="0.1524" layer="95"/>
 <wire x1="353.06" y1="193.04" x2="297.18" y2="193.04" width="0.1524" layer="95"/>
 <text x="297.18" y="190.5" size="1.778" layer="95">OPENMV</text>
+<wire x1="355.6" y1="187.96" x2="355.6" y2="116.84" width="0.1524" layer="95"/>
+<wire x1="355.6" y1="116.84" x2="424.18" y2="116.84" width="0.1524" layer="95"/>
+<wire x1="424.18" y1="116.84" x2="424.18" y2="187.96" width="0.1524" layer="95"/>
+<wire x1="424.18" y1="187.96" x2="355.6" y2="187.96" width="0.1524" layer="95"/>
+<text x="355.6" y="114.3" size="1.778" layer="95">SWITCHES</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="45.72" y="50.8" smashed="yes"/>
