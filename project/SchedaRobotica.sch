@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -20714,10 +20714,10 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <text x="281.94" y="248.92" size="1.778" layer="91">TODO:
 -add BT connector (Grove)
 -add roller and kicker connectors (?)</text>
-<text x="340.36" y="101.6" size="2.54" layer="91">M1</text>
-<text x="449.58" y="101.6" size="2.54" layer="91">M2</text>
-<text x="340.36" y="44.45" size="2.54" layer="91">M3</text>
-<text x="449.58" y="44.45" size="2.54" layer="91">M4</text>
+<text x="340.36" y="101.6" size="2.54" layer="97">M1</text>
+<text x="449.58" y="101.6" size="2.54" layer="97">M2</text>
+<text x="340.36" y="44.45" size="2.54" layer="97">M3</text>
+<text x="449.58" y="44.45" size="2.54" layer="97">M4</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="45.72" y="50.8" smashed="yes"/>
