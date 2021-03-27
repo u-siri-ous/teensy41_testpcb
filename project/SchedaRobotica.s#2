@@ -20713,7 +20713,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <text x="259.08" y="142.24" size="1.778" layer="97">MOTOR CONS</text>
 <text x="281.94" y="248.92" size="1.778" layer="91">TODO:
 -add BT connector (Grove)
--finish motor drivers
 -add roller and kicker connectors (?)</text>
 <text x="340.36" y="101.6" size="2.54" layer="91">M1</text>
 <text x="449.58" y="101.6" size="2.54" layer="91">M2</text>

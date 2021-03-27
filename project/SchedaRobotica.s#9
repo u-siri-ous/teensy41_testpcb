@@ -11618,6 +11618,9 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IC2" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="IC3" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="IC4" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="IC5" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11678,9 +11681,9 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <wire x1="233.68" y1="116.84" x2="233.68" y2="187.96" width="0.1524" layer="95"/>
 <wire x1="233.68" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="95"/>
 <wire x1="236.22" y1="116.84" x2="236.22" y2="187.96" width="0.1524" layer="95"/>
-<wire x1="236.22" y1="187.96" x2="292.1" y2="187.96" width="0.1524" layer="95"/>
-<wire x1="292.1" y1="187.96" x2="292.1" y2="116.84" width="0.1524" layer="95"/>
-<wire x1="292.1" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="95"/>
+<wire x1="236.22" y1="187.96" x2="302.26" y2="187.96" width="0.1524" layer="95"/>
+<wire x1="302.26" y1="187.96" x2="302.26" y2="116.84" width="0.1524" layer="95"/>
+<wire x1="302.26" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="95"/>
 <text x="236.22" y="114.3" size="1.778" layer="95">OPENMV</text>
 <wire x1="236.22" y1="233.68" x2="236.22" y2="193.04" width="0.1524" layer="95"/>
 <wire x1="236.22" y1="193.04" x2="302.26" y2="193.04" width="0.1524" layer="95"/>
@@ -11999,8 +12002,17 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <instance part="+3V7" gate="G$1" x="243.84" y="254" smashed="yes">
 <attribute name="VALUE" x="241.3" y="248.92" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="330.2" y="71.12" smashed="yes">
-<attribute name="NAME" x="359.41" y="76.2" size="1.778" layer="95" align="center-left"/>
+<instance part="IC2" gate="G$1" x="307.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="336.55" y="93.98" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="IC3" gate="G$1" x="370.84" y="88.9" smashed="yes">
+<attribute name="NAME" x="400.05" y="93.98" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="IC4" gate="G$1" x="307.34" y="45.72" smashed="yes">
+<attribute name="NAME" x="336.55" y="50.8" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="370.84" y="45.72" smashed="yes">
+<attribute name="NAME" x="400.05" y="50.8" size="1.778" layer="95" align="center-left"/>
 </instance>
 </instances>
 <busses>
