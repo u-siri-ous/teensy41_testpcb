@@ -143,6 +143,7 @@
 <layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="197" name="ARDUINO_b_PLACE" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -21106,67 +21107,60 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </deviceset>
 </devicesets>
 </library>
-<library name="BNO055ada">
+<library name="IMU">
+<description>Per siria con affetto Ludo</description>
 <packages>
-<package name="BNO055">
-<pad name="VIN" x="-20.574" y="21.844" drill="1.016" diameter="1.9812"/>
-<pad name="3V3" x="-18.034" y="21.844" drill="1.016" diameter="1.9812"/>
-<pad name="GND" x="-15.494" y="21.844" drill="1.016" diameter="1.9812"/>
-<pad name="SDA" x="-12.954" y="21.844" drill="1.016" diameter="1.9812"/>
-<pad name="SCL" x="-10.414" y="21.844" drill="1.016" diameter="1.9812"/>
-<pad name="RST" x="-7.874" y="21.844" drill="1.016" diameter="1.9812"/>
-<pad name="ADR" x="-10.414" y="39.624" drill="1.016" diameter="1.9812"/>
-<pad name="INT" x="-12.954" y="39.624" drill="1.016" diameter="1.9812"/>
-<pad name="PS1" x="-15.494" y="39.624" drill="1.016" diameter="1.9812"/>
-<pad name="PS0" x="-18.034" y="39.624" drill="1.016" diameter="1.9812"/>
-<wire x1="-25.146" y1="40.894" x2="-3.556" y2="40.894" width="0" layer="21"/>
-<wire x1="-3.556" y1="40.894" x2="-1.016" y2="38.354" width="0" layer="21" curve="-90"/>
-<wire x1="-1.016" y1="38.354" x2="-1.016" y2="23.114" width="0" layer="21"/>
-<wire x1="-1.016" y1="23.114" x2="-3.556" y2="20.574" width="0" layer="21" curve="-90"/>
-<wire x1="-3.556" y1="20.574" x2="-25.146" y2="20.574" width="0" layer="21"/>
-<wire x1="-25.146" y1="20.574" x2="-27.686" y2="23.114" width="0" layer="21" curve="-90"/>
-<wire x1="-27.686" y1="23.114" x2="-27.686" y2="38.354" width="0" layer="21"/>
-<wire x1="-27.686" y1="38.354" x2="-25.146" y2="40.894" width="0" layer="21" curve="-90"/>
-<text x="-26.636" y="31.391" size="1.27" layer="21" ratio="12" rot="R90" align="center">BNO055</text>
-<text x="-15.499" y="23.495" size="0.8128" layer="21" ratio="12" align="center">GND</text>
-<text x="-12.959" y="23.495" size="0.8128" layer="21" ratio="12" align="center">SDA</text>
-<text x="-10.419" y="23.495" size="0.8128" layer="21" ratio="12" align="center">SCL</text>
-<text x="-12.928" y="38.148" size="0.8128" layer="21" ratio="12" align="center">INT</text>
-<text x="-7.839" y="23.495" size="0.8128" layer="21" ratio="12" align="center">RST</text>
-<text x="-18.166" y="38.1" size="0.8128" layer="21" ratio="12" align="center">PS0</text>
-<text x="-15.626" y="38.1" size="0.8128" layer="21" ratio="12" align="center">PS1</text>
-<text x="-18.139" y="23.495" size="0.8128" layer="21" ratio="12" align="center">3V3</text>
-<text x="-10.405" y="38.1" size="0.8128" layer="21" ratio="12" align="center">ADR</text>
-<text x="-3.048" y="30.988" size="1.016" layer="21" font="vector" ratio="12" rot="R90" align="center">9-Axis Abs.
-Orientation</text>
-<text x="-21.59" y="23.114" size="0.8128" layer="21">VIN</text>
+<package name="BNO055_BNO055">
+<wire x1="0" y1="17.78" x2="0" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="0" x2="24.13" y2="0" width="0.127" layer="21"/>
+<wire x1="24.13" y1="0" x2="26.67" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="26.67" y1="2.54" x2="26.67" y2="17.78" width="0.127" layer="21"/>
+<wire x1="0" y1="17.78" x2="2.54" y2="20.32" width="0.127" layer="21" curve="-90"/>
+<wire x1="26.67" y1="17.78" x2="24.13" y2="20.32" width="0.127" layer="21" curve="90"/>
+<wire x1="24.13" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="21"/>
+<pad name="3V3" x="9.525" y="1.27" drill="1"/>
+<pad name="ADR" x="17.145" y="19.05" drill="1"/>
+<pad name="GND" x="12.065" y="1.27" drill="1"/>
+<pad name="INT" x="14.605" y="19.05" drill="1"/>
+<pad name="PAD@1" x="2.54" y="17.78" drill="2.286" diameter="4.064"/>
+<pad name="PAD@2" x="24.13" y="17.78" drill="2.286" diameter="4.064"/>
+<pad name="PAD@3" x="2.54" y="2.54" drill="2.286" diameter="4.064"/>
+<pad name="PAD@4" x="24.13" y="2.54" drill="2.286" diameter="4.064"/>
+<pad name="PS0" x="9.525" y="19.05" drill="1"/>
+<pad name="PS1" x="12.065" y="19.05" drill="1"/>
+<pad name="RST" x="19.685" y="1.27" drill="1"/>
+<pad name="SCL" x="17.145" y="1.27" drill="1"/>
+<pad name="SDA" x="14.605" y="1.27" drill="1"/>
+<pad name="VIN" x="6.985" y="1.27" drill="1"/>
+<text x="3.175" y="6.985" size="1.27" layer="21" rot="R90">BNO055</text>
 </package>
 </packages>
 <symbols>
-<symbol name="BNO055">
-<pin name="ADR" x="-5.08" y="20.32" length="middle" rot="R270"/>
-<pin name="INT" x="-7.62" y="20.32" length="middle" rot="R270"/>
-<pin name="PS1" x="-10.16" y="20.32" length="middle" rot="R270"/>
-<pin name="PS0" x="-12.7" y="20.32" length="middle" rot="R270"/>
-<pin name="RST" x="-2.54" y="-5.08" length="middle" rot="R90"/>
-<pin name="SCL" x="-5.08" y="-5.08" length="middle" rot="R90"/>
-<pin name="SDA" x="-7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="GND" x="-10.16" y="-5.08" length="middle" rot="R90"/>
-<pin name="3V3" x="-12.7" y="-5.08" length="middle" rot="R90"/>
-<pin name="VIN" x="-15.24" y="-5.08" length="middle" rot="R90"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-17.78" y2="0" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="0" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<symbol name="BNO055_BNO055">
+<wire x1="0" y1="0" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="3V3" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="ADR" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-5.08" y="10.16" visible="pin" length="middle"/>
+<pin name="INT" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PS0" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PS1" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="RST" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="SCL" x="-5.08" y="5.08" visible="pin" length="middle"/>
+<pin name="SDA" x="-5.08" y="7.62" visible="pin" length="middle"/>
+<pin name="VIN" x="-5.08" y="15.24" visible="pin" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BNO055" uservalue="yes">
+<deviceset name="BNO055_BNO055">
 <gates>
-<gate name="G$1" symbol="BNO055" x="35.56" y="15.24"/>
+<gate name="G$1" symbol="BNO055_BNO055" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BNO055">
+<device name="" package="BNO055_BNO055">
 <connects>
 <connect gate="G$1" pin="3V3" pad="3V3"/>
 <connect gate="G$1" pin="ADR" pad="ADR"/>
@@ -21177,7 +21171,7 @@ Orientation</text>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VIN" pad="VIN" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21287,7 +21281,7 @@ Orientation</text>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R_ELETT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="EXTR_PWR" library="Molex motori" deviceset="43650-0201" device=""/>
@@ -21369,7 +21363,7 @@ Orientation</text>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M4-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M4+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="U$3" library="BNO055ada" deviceset="BNO055" device=""/>
+<part name="U$3" library="IMU" deviceset="BNO055_BNO055" device=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
@@ -21465,9 +21459,9 @@ Orientation</text>
 <text x="340.36" y="44.45" size="2.54" layer="97">M3</text>
 <text x="449.58" y="44.45" size="2.54" layer="97">M4</text>
 <wire x1="312.42" y1="187.96" x2="312.42" y2="139.7" width="0.1524" layer="97"/>
-<wire x1="312.42" y1="139.7" x2="363.22" y2="139.7" width="0.1524" layer="97"/>
-<wire x1="363.22" y1="139.7" x2="363.22" y2="187.96" width="0.1524" layer="97"/>
-<wire x1="363.22" y1="187.96" x2="312.42" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="312.42" y1="139.7" x2="365.76" y2="139.7" width="0.1524" layer="97"/>
+<wire x1="365.76" y1="139.7" x2="365.76" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="365.76" y1="187.96" x2="312.42" y2="187.96" width="0.1524" layer="97"/>
 <text x="312.42" y="137.16" size="1.778" layer="97">IMU</text>
 <wire x1="304.8" y1="233.68" x2="304.8" y2="203.2" width="0.1524" layer="97"/>
 <wire x1="304.8" y1="203.2" x2="332.74" y2="203.2" width="0.1524" layer="97"/>
@@ -21767,7 +21761,7 @@ Orientation</text>
 <attribute name="NAME" x="252.73" y="44.2214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="252.73" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="278.13" y="44.45" smashed="yes" rot="R90">
+<instance part="R_ELETT" gate="G$1" x="278.13" y="44.45" smashed="yes" rot="R90">
 <attribute name="NAME" x="281.7114" y="40.64" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="281.432" y="40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -22044,7 +22038,7 @@ Orientation</text>
 <attribute name="NAME" x="407.416" y="14.478" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="417.195" y="14.478" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="340.36" y="152.4" smashed="yes" rot="R270"/>
+<instance part="U$3" gate="G$1" x="340.36" y="152.4" smashed="yes"/>
 <instance part="C19" gate="G$1" x="332.74" y="172.72" smashed="yes">
 <attribute name="NAME" x="334.264" y="173.101" size="1.778" layer="95"/>
 </instance>
@@ -23099,13 +23093,13 @@ Orientation</text>
 <wire x1="242.57" y1="58.42" x2="242.57" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="242.57" y1="55.88" x2="278.13" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="278.13" y1="55.88" x2="278.13" y2="49.53" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R_ELETT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="L_ELETT" gate="G$1" pin="A"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R_ELETT" gate="G$1" pin="1"/>
 <wire x1="278.13" y1="36.83" x2="278.13" y2="39.37" width="0.1524" layer="91"/>
 </segment>
 </net>
