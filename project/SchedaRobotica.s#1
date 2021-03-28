@@ -21576,7 +21576,10 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <text x="281.94" y="248.92" size="1.778" layer="91">TODO:
 -add serials and values
 -add roller and kicker connectors (?)
--add US cons if there's room</text>
+-add US cons if there's room
+
+NOTE:
+in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <text x="340.36" y="101.6" size="2.54" layer="97">M1</text>
 <text x="449.58" y="101.6" size="2.54" layer="97">M2</text>
 <text x="340.36" y="44.45" size="2.54" layer="97">M3</text>
