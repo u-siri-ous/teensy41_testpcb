@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -3296,25 +3296,25 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-186.69" y="-110.363" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-186.69" y="-113.792" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="B_SW_1" library="21810LPSTF" package="SOIC127P844X265-20N" value="21810LPSTF" x="-195.58" y="-116.84" smashed="yes">
-<attribute name="DESCRIPTION" value="DIP SW,Half-pitch,10-pos,flush act,SMD" x="-195.58" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.65mm" x="-195.58" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="CTS" x="-195.58" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="21810LPSTF" x="-195.58" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-195.58" y="-116.84" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-195.58" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-195.58" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-195.58" y="-116.84" size="1.27" layer="27" align="center"/>
+<element name="B_SW_1" library="21810LPSTF" package="SOIC127P844X265-20N" value="21810LPSTF" x="44.45" y="-43.18" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="DIP SW,Half-pitch,10-pos,flush act,SMD" x="44.45" y="-43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="2.65mm" x="44.45" y="-43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="CTS" x="44.45" y="-43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="21810LPSTF" x="44.45" y="-43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="44.45" y="-49.53" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="44.45" y="-43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="44.45" y="-43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="44.45" y="-43.18" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="B_SW_2" library="21810LPSTF" package="SOIC127P844X265-20N" value="21810LPSTF" x="-195.58" y="-132.08" smashed="yes">
-<attribute name="DESCRIPTION" value="DIP SW,Half-pitch,10-pos,flush act,SMD" x="-208.28" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.65mm" x="-208.28" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="CTS" x="-208.28" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="21810LPSTF" x="-208.28" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-195.58" y="-132.08" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-208.28" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-208.28" y="-116.84" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-195.58" y="-132.08" size="1.27" layer="27" align="center"/>
+<element name="B_SW_2" library="21810LPSTF" package="SOIC127P844X265-20N" value="21810LPSTF" x="59.69" y="-43.18" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="DIP SW,Half-pitch,10-pos,flush act,SMD" x="74.93" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="2.65mm" x="74.93" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="CTS" x="74.93" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="21810LPSTF" x="74.93" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="59.69" y="-49.53" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="74.93" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="74.93" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="59.69" y="-43.18" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 </elements>
 <signals>
