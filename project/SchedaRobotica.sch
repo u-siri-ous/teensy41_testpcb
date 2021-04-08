@@ -570,12 +570,50 @@ W = angled&lt;p&gt;
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 <rectangle x1="13.716" y1="-0.254" x2="14.224" y2="0.254" layer="51"/>
 </package>
+<package name="MA03-1" urn="urn:adsk.eagle:footprint:8281/1" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MA12-1" urn="urn:adsk.eagle:package:8348/1" type="box" library_version="2">
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="MA12-1"/>
+</packageinstances>
+</package3d>
+<package3d name="MA03-1" urn="urn:adsk.eagle:package:8339/1" type="box" library_version="2">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA03-1"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -612,6 +650,20 @@ W = angled&lt;p&gt;
 <pin name="11" x="7.62" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="12" x="7.62" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="MA03-1" urn="urn:adsk.eagle:symbol:8280/1" library_version="2">
+<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MA12-1" urn="urn:adsk.eagle:component:8388/2" prefix="SV" uservalue="yes" library_version="2">
@@ -645,6 +697,33 @@ W = angled&lt;p&gt;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 <attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MA03-1" urn="urn:adsk.eagle:component:8376/2" prefix="SV" uservalue="yes" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA03-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA03-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8339/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="48" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21376,6 +21455,16 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA12-1" device="" package3d_urn="urn:adsk.eagle:package:8348/1"/>
 <part name="SV6" library="SparkFun-Connectors" deviceset="CONN_14" device="LONGPADS"/>
+<part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV11" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV12" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV13" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV14" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV15" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV16" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -21472,10 +21561,10 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <wire x1="520.7" y1="109.22" x2="492.76" y2="109.22" width="0.1524" layer="97"/>
 <text x="492.76" y="76.2" size="1.778" layer="97">BLUETOOTH</text>
 <wire x1="332.74" y1="238.76" x2="332.74" y2="190.5" width="0.1524" layer="97"/>
-<wire x1="332.74" y1="190.5" x2="421.64" y2="190.5" width="0.1524" layer="97"/>
-<wire x1="421.64" y1="190.5" x2="421.64" y2="238.76" width="0.1524" layer="97"/>
-<wire x1="421.64" y1="238.76" x2="332.74" y2="238.76" width="0.1524" layer="97"/>
-<text x="332.74" y="187.96" size="1.778" layer="97">BALL SWITCHES</text>
+<wire x1="332.74" y1="190.5" x2="431.8" y2="190.5" width="0.1524" layer="97"/>
+<wire x1="431.8" y1="190.5" x2="431.8" y2="238.76" width="0.1524" layer="97"/>
+<wire x1="431.8" y1="238.76" x2="332.74" y2="238.76" width="0.1524" layer="97"/>
+<text x="332.74" y="187.96" size="1.778" layer="97">BALL PINHEADERS</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="40.64" y="55.88" smashed="yes"/>
@@ -22084,6 +22173,46 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <instance part="SV6" gate="G$1" x="185.42" y="76.2" smashed="yes" rot="R180">
 <attribute name="VALUE" x="185.42" y="98.806" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="185.42" y="57.912" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="SV7" gate="G$1" x="337.82" y="228.6" smashed="yes">
+<attribute name="VALUE" x="336.55" y="220.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="336.55" y="234.442" size="1.778" layer="95"/>
+</instance>
+<instance part="SV8" gate="G$1" x="337.82" y="213.36" smashed="yes">
+<attribute name="VALUE" x="336.55" y="205.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="336.55" y="219.202" size="1.778" layer="95"/>
+</instance>
+<instance part="SV9" gate="G$1" x="353.06" y="228.6" smashed="yes">
+<attribute name="VALUE" x="351.79" y="220.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="351.79" y="234.442" size="1.778" layer="95"/>
+</instance>
+<instance part="SV10" gate="G$1" x="353.06" y="213.36" smashed="yes">
+<attribute name="VALUE" x="351.79" y="205.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="351.79" y="219.202" size="1.778" layer="95"/>
+</instance>
+<instance part="SV11" gate="G$1" x="368.3" y="228.6" smashed="yes">
+<attribute name="VALUE" x="367.03" y="220.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="367.03" y="234.442" size="1.778" layer="95"/>
+</instance>
+<instance part="SV12" gate="G$1" x="368.3" y="213.36" smashed="yes">
+<attribute name="VALUE" x="367.03" y="205.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="367.03" y="219.202" size="1.778" layer="95"/>
+</instance>
+<instance part="SV13" gate="G$1" x="383.54" y="228.6" smashed="yes">
+<attribute name="VALUE" x="382.27" y="220.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="382.27" y="234.442" size="1.778" layer="95"/>
+</instance>
+<instance part="SV14" gate="G$1" x="383.54" y="213.36" smashed="yes">
+<attribute name="VALUE" x="382.27" y="205.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="382.27" y="219.202" size="1.778" layer="95"/>
+</instance>
+<instance part="SV15" gate="G$1" x="398.78" y="228.6" smashed="yes">
+<attribute name="VALUE" x="397.51" y="220.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="397.51" y="234.442" size="1.778" layer="95"/>
+</instance>
+<instance part="SV16" gate="G$1" x="398.78" y="213.36" smashed="yes">
+<attribute name="VALUE" x="397.51" y="205.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="397.51" y="219.202" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
