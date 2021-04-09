@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -18529,120 +18529,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="switch" urn="urn:adsk.eagle:library:380">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="255SB" urn="urn:adsk.eagle:footprint:27544/1" library_version="3">
-<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
-distributor Buerklin, 11G810</description>
-<wire x1="-5.588" y1="3.048" x2="5.588" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.588" y1="-3.048" x2="5.588" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.588" y1="-3.048" x2="-5.588" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="3.048" x2="-5.588" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.397" x2="3.81" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="1.397" x2="-3.81" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="-1.524" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.524" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="-1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="1.524" x2="-1.778" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.016" x2="-2.794" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="1.524" x2="-3.302" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="-1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.524" x2="3.81" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.524" x2="3.81" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.27" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.016" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.524" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.397" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.524" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.397" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.524" x2="-3.81" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.524" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.524" x2="-2.794" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.524" x2="-2.794" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.524" x2="-2.286" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.524" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.524" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.524" x2="3.81" y2="1.524" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.1176" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.1176" shape="long" rot="R90"/>
-<pad name="3" x="3.81" y="0" drill="1.1176" shape="long" rot="R90"/>
-<text x="-5.207" y="-2.794" size="1.27" layer="21" ratio="10">1</text>
-<text x="4.191" y="-2.794" size="1.27" layer="21" ratio="10">2</text>
-<text x="-5.588" y="3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="255SB" urn="urn:adsk.eagle:package:27679/1" type="box" library_version="3">
-<description>SLIDING SWITCH
-distributor Buerklin, 11G810</description>
-<packageinstances>
-<packageinstance name="255SB"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SIS" urn="urn:adsk.eagle:symbol:27543/1" library_version="3">
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="255SB" urn="urn:adsk.eagle:component:27762/2" prefix="S" uservalue="yes" library_version="3">
-<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
-Distributor Buerklin, 11G810</description>
-<gates>
-<gate name="1" symbol="SIS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="255SB">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27679/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="11" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led" urn="urn:adsk.eagle:library:259">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
@@ -21260,6 +21146,120 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </deviceset>
 </devicesets>
 </library>
+<library name="switch_modified">
+<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
+Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="255SB" urn="urn:adsk.eagle:footprint:27544/1" locally_modified="yes">
+<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
+distributor Buerklin, 11G810</description>
+<wire x1="-5.588" y1="3.048" x2="5.588" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="5.588" y1="-3.048" x2="5.588" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="5.588" y1="-3.048" x2="-5.588" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="-5.588" y1="3.048" x2="-5.588" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.397" x2="3.81" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="1.397" x2="-3.81" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-1.524" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="1.524" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.524" x2="-1.778" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.016" x2="-2.794" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="1.524" x2="-3.302" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.524" x2="3.81" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.524" x2="3.81" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.016" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.524" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-1.397" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-1.524" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.397" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.524" x2="-3.81" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="1.524" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="1.524" x2="-2.794" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.524" x2="-2.794" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.524" x2="-2.286" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.524" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.524" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.524" x2="3.81" y2="1.524" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="2.286" diameter="3.175" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="2.286" diameter="3.175" shape="long" rot="R90"/>
+<pad name="3" x="3.81" y="0" drill="2.286" diameter="3.175" shape="long" rot="R90"/>
+<text x="-5.207" y="-2.794" size="1.27" layer="21" ratio="10">1</text>
+<text x="4.191" y="-2.794" size="1.27" layer="21" ratio="10">2</text>
+<text x="-5.588" y="3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="255SB" urn="urn:adsk.eagle:package:27679/1" type="box">
+<description>SLIDING SWITCH
+distributor Buerklin, 11G810</description>
+<packageinstances>
+<packageinstance name="255SB"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SIS">
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="255SB" prefix="S" uservalue="yes">
+<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
+Distributor Buerklin, 11G810</description>
+<gates>
+<gate name="1" symbol="SIS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="255SB">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27679/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="11" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21337,8 +21337,8 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="BAT_CON" library="SparkFun-Connectors" deviceset="BATTERY_CONN" device="_DEANS"/>
-<part name="SW_ELETT" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="255SB" device="" package3d_urn="urn:adsk.eagle:package:27679/1"/>
-<part name="SW_MOT" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="255SB" device="" package3d_urn="urn:adsk.eagle:package:27679/1"/>
+<part name="SW_ELETT" library="switch_modified" deviceset="255SB" device="" package3d_urn="urn:adsk.eagle:package:27679/1"/>
+<part name="SW_MOT" library="switch_modified" deviceset="255SB" device="" package3d_urn="urn:adsk.eagle:package:27679/1"/>
 <part name="L_BAT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="R_BAT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="L_MOT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
@@ -21357,16 +21357,16 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="C7" library="Panasonic 1500uF" deviceset="EEV-FK1C152Q" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22n"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22n"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="61,9k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1,07k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="3,32k"/>
 <part name="R_ELETT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="EXTR_PWR" library="Molex motori" deviceset="43650-0201" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="IC2" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV1" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="M1" library="Molex motori" deviceset="43650-0201" device=""/>
 <part name="M2" library="Molex motori" deviceset="43650-0201" device=""/>
 <part name="M3" library="Molex motori" deviceset="43650-0201" device=""/>
@@ -21400,7 +21400,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M1-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M1+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="IC3" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV3" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -21414,7 +21414,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M3-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M3+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="IC4" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV2" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -21428,7 +21428,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M2-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M2+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="IC5" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV4" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -21539,10 +21539,12 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <wire x1="271.78" y1="142.24" x2="271.78" y2="185.42" width="0.1524" layer="97"/>
 <wire x1="271.78" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="97"/>
 <text x="220.98" y="139.7" size="1.778" layer="97">MOTOR CONS</text>
-<text x="325.12" y="157.48" size="1.778" layer="91">TODO:
+<text x="325.12" y="154.94" size="1.778" layer="91">TODO:
 -add serials and values
 -add roller and kicker connectors (?)
 -add US cons if there's room
+-decide which uc, arduino promini (16 sensors) or nano 33 BLE (cooler, allows for 20 sensors)
+-add mux!!!!
 
 NOTE:
 in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
@@ -21848,15 +21850,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </instance>
 <instance part="R1" gate="G$1" x="229.87" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="228.3714" y="35.56" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="233.172" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="240.03" y="24.13" smashed="yes" rot="R90">
-<attribute name="NAME" x="243.6114" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="243.332" y="20.32" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="243.1034" y="18.288" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="248.92" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="252.73" y="34.0614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="252.73" y="38.862" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R_ELETT" gate="G$1" x="278.13" y="34.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="281.7114" y="30.48" size="1.778" layer="95" rot="R90"/>
@@ -21877,7 +21876,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <instance part="+3V7" gate="G$1" x="284.48" y="170.18" smashed="yes">
 <attribute name="VALUE" x="281.94" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="35.56" y="218.44" smashed="yes">
+<instance part="DRV1" gate="G$1" x="35.56" y="218.44" smashed="yes">
 <attribute name="NAME" x="64.77" y="223.52" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="M1" gate="G$1" x="236.22" y="177.8" smashed="yes">
@@ -21985,7 +21984,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <attribute name="NAME" x="8.636" y="193.548" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="193.548" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC3" gate="G$1" x="35.56" y="158.75" smashed="yes">
+<instance part="DRV3" gate="G$1" x="35.56" y="158.75" smashed="yes">
 <attribute name="NAME" x="64.77" y="163.83" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="P+4" gate="1" x="33.02" y="173.99" smashed="yes">
@@ -22035,7 +22034,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <attribute name="NAME" x="8.636" y="133.858" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="133.858" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC4" gate="G$1" x="144.78" y="218.44" smashed="yes">
+<instance part="DRV2" gate="G$1" x="144.78" y="218.44" smashed="yes">
 <attribute name="NAME" x="173.99" y="223.52" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="P+6" gate="1" x="142.24" y="233.68" smashed="yes">
@@ -22085,7 +22084,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <attribute name="NAME" x="117.856" y="193.548" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.635" y="193.548" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC5" gate="G$1" x="144.78" y="158.75" smashed="yes">
+<instance part="DRV4" gate="G$1" x="144.78" y="158.75" smashed="yes">
 <attribute name="NAME" x="173.99" y="163.83" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="P+8" gate="1" x="142.24" y="173.99" smashed="yes">
@@ -22981,21 +22980,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <pinref part="SUPPLY1" gate="1" pin="V-"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV1" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY2" gate="1" pin="V-"/>
 <wire x1="35.56" y1="218.44" x2="34.29" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="218.44" x2="34.29" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV1" gate="G$1" pin="GND_B_1"/>
 <wire x1="34.29" y1="200.66" x2="34.29" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="200.66" x2="34.29" y2="200.66" width="0.1524" layer="91"/>
 <junction x="34.29" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV1" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY3" gate="1" pin="V-"/>
 <wire x1="71.12" y1="200.66" x2="72.39" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="200.66" x2="72.39" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV1" gate="G$1" pin="GND_A_2"/>
 <wire x1="71.12" y1="218.44" x2="72.39" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="218.44" x2="72.39" y2="200.66" width="0.1524" layer="91"/>
 <junction x="72.39" y="200.66"/>
@@ -23008,21 +23007,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <junction x="95.25" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV3" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY4" gate="1" pin="V-"/>
 <wire x1="35.56" y1="158.75" x2="34.29" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="158.75" x2="34.29" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV3" gate="G$1" pin="GND_B_1"/>
 <wire x1="34.29" y1="140.97" x2="34.29" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="140.97" x2="34.29" y2="140.97" width="0.1524" layer="91"/>
 <junction x="34.29" y="140.97"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV3" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY5" gate="1" pin="V-"/>
 <wire x1="71.12" y1="140.97" x2="72.39" y2="140.97" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="140.97" x2="72.39" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV3" gate="G$1" pin="GND_A_2"/>
 <wire x1="71.12" y1="158.75" x2="72.39" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="158.75" x2="72.39" y2="140.97" width="0.1524" layer="91"/>
 <junction x="72.39" y="140.97"/>
@@ -23035,21 +23034,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <junction x="95.25" y="140.97"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV2" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY6" gate="1" pin="V-"/>
 <wire x1="144.78" y1="218.44" x2="143.51" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="218.44" x2="143.51" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV2" gate="G$1" pin="GND_B_1"/>
 <wire x1="143.51" y1="200.66" x2="143.51" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="200.66" x2="143.51" y2="200.66" width="0.1524" layer="91"/>
 <junction x="143.51" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV2" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY7" gate="1" pin="V-"/>
 <wire x1="180.34" y1="200.66" x2="181.61" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="200.66" x2="181.61" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV2" gate="G$1" pin="GND_A_2"/>
 <wire x1="180.34" y1="218.44" x2="181.61" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="218.44" x2="181.61" y2="200.66" width="0.1524" layer="91"/>
 <junction x="181.61" y="200.66"/>
@@ -23062,21 +23061,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <junction x="204.47" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV4" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY8" gate="1" pin="V-"/>
 <wire x1="144.78" y1="158.75" x2="143.51" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="158.75" x2="143.51" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV4" gate="G$1" pin="GND_B_1"/>
 <wire x1="143.51" y1="140.97" x2="143.51" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="140.97" x2="143.51" y2="140.97" width="0.1524" layer="91"/>
 <junction x="143.51" y="140.97"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV4" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY9" gate="1" pin="V-"/>
 <wire x1="180.34" y1="140.97" x2="181.61" y2="140.97" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="140.97" x2="181.61" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV4" gate="G$1" pin="GND_A_2"/>
 <wire x1="180.34" y1="158.75" x2="181.61" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="158.75" x2="181.61" y2="140.97" width="0.1524" layer="91"/>
 <junction x="181.61" y="140.97"/>
@@ -23120,18 +23119,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="IC2" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_2"/>
 <wire x1="33.02" y1="231.14" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="210.82" x2="33.02" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="208.28" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_1"/>
 <wire x1="35.56" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
 <junction x="33.02" y="210.82"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <wire x1="73.66" y1="231.14" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_3"/>
 <wire x1="73.66" y1="220.98" x2="73.66" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="208.28" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -23145,18 +23144,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="IC3" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_2"/>
 <wire x1="33.02" y1="171.45" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="151.13" x2="33.02" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="148.59" x2="35.56" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_1"/>
 <wire x1="35.56" y1="151.13" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
 <junction x="33.02" y="151.13"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="73.66" y1="171.45" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_3"/>
 <wire x1="73.66" y1="161.29" x2="73.66" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="148.59" x2="71.12" y2="148.59" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -23170,18 +23169,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+12V"/>
-<pinref part="IC4" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_2"/>
 <wire x1="142.24" y1="231.14" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="210.82" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_1"/>
 <wire x1="144.78" y1="210.82" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
 <junction x="142.24" y="210.82"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+12V"/>
 <wire x1="182.88" y1="231.14" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_3"/>
 <wire x1="182.88" y1="220.98" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="208.28" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -23195,18 +23194,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<pinref part="IC5" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_2"/>
 <wire x1="142.24" y1="171.45" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="151.13" x2="142.24" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="148.59" x2="144.78" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_1"/>
 <wire x1="144.78" y1="151.13" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
 <junction x="142.24" y="151.13"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+12V"/>
 <wire x1="182.88" y1="171.45" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_3"/>
 <wire x1="182.88" y1="161.29" x2="182.88" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="148.59" x2="180.34" y2="148.59" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -23276,12 +23275,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="223.52" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_B_1"/>
 <wire x1="144.78" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <label x="129.54" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_B_2"/>
 <wire x1="180.34" y1="203.2" x2="198.12" y2="203.2" width="0.1524" layer="91"/>
 <label x="187.96" y="200.66" size="1.778" layer="95"/>
 </segment>
@@ -23293,12 +23292,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="223.52" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_B_2"/>
 <wire x1="71.12" y1="143.51" x2="88.9" y2="143.51" width="0.1524" layer="91"/>
 <label x="78.74" y="140.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_B_1"/>
 <wire x1="35.56" y1="143.51" x2="20.32" y2="143.51" width="0.1524" layer="91"/>
 <label x="20.32" y="140.97" size="1.778" layer="95"/>
 </segment>
@@ -23310,12 +23309,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="223.52" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_B_2"/>
 <wire x1="180.34" y1="143.51" x2="198.12" y2="143.51" width="0.1524" layer="91"/>
 <label x="187.96" y="140.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_B_1"/>
 <wire x1="144.78" y1="143.51" x2="129.54" y2="143.51" width="0.1524" layer="91"/>
 <label x="129.54" y="140.97" size="1.778" layer="95"/>
 </segment>
@@ -23327,12 +23326,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="259.08" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_A_1"/>
 <wire x1="144.78" y1="215.9" x2="129.54" y2="215.9" width="0.1524" layer="91"/>
 <label x="129.54" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_A_2"/>
 <wire x1="180.34" y1="215.9" x2="198.12" y2="215.9" width="0.1524" layer="91"/>
 <label x="187.96" y="215.9" size="1.778" layer="95"/>
 </segment>
@@ -23349,12 +23348,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="259.08" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_A_1"/>
 <wire x1="35.56" y1="156.21" x2="20.32" y2="156.21" width="0.1524" layer="91"/>
 <label x="20.32" y="156.21" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_A_2"/>
 <wire x1="71.12" y1="156.21" x2="88.9" y2="156.21" width="0.1524" layer="91"/>
 <label x="78.74" y="156.21" size="1.778" layer="95"/>
 </segment>
@@ -23366,12 +23365,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="259.08" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_A_1"/>
 <wire x1="144.78" y1="156.21" x2="129.54" y2="156.21" width="0.1524" layer="91"/>
 <label x="129.54" y="156.21" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_A_2"/>
 <wire x1="180.34" y1="156.21" x2="198.12" y2="156.21" width="0.1524" layer="91"/>
 <label x="187.96" y="156.21" size="1.778" layer="95"/>
 </segment>
@@ -23440,14 +23439,14 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN_A"/>
+<pinref part="DRV1" gate="G$1" pin="IN_A"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="213.36" x2="30.48" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN_B"/>
+<pinref part="DRV1" gate="G$1" pin="IN_B"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="205.74" x2="30.48" y2="205.74" width="0.1524" layer="91"/>
 </segment>
@@ -23488,7 +23487,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PWM"/>
+<pinref part="DRV1" gate="G$1" pin="PWM"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="205.74" x2="73.66" y2="205.74" width="0.1524" layer="91"/>
 </segment>
@@ -23502,14 +23501,14 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="IN_A"/>
+<pinref part="DRV3" gate="G$1" pin="IN_A"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="153.67" x2="30.48" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="IN_B"/>
+<pinref part="DRV3" gate="G$1" pin="IN_B"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="146.05" x2="30.48" y2="146.05" width="0.1524" layer="91"/>
 </segment>
@@ -23528,21 +23527,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="PWM"/>
+<pinref part="DRV3" gate="G$1" pin="PWM"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="146.05" x2="73.66" y2="146.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="IN_A"/>
+<pinref part="DRV2" gate="G$1" pin="IN_A"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="213.36" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="IN_B"/>
+<pinref part="DRV2" gate="G$1" pin="IN_B"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="205.74" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
 </segment>
@@ -23561,21 +23560,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PWM"/>
+<pinref part="DRV2" gate="G$1" pin="PWM"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="205.74" x2="182.88" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="IN_A"/>
+<pinref part="DRV4" gate="G$1" pin="IN_A"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="153.67" x2="139.7" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="IN_B"/>
+<pinref part="DRV4" gate="G$1" pin="IN_B"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="146.05" x2="139.7" y2="146.05" width="0.1524" layer="91"/>
 </segment>
@@ -23594,7 +23593,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="PWM"/>
+<pinref part="DRV4" gate="G$1" pin="PWM"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="146.05" x2="182.88" y2="146.05" width="0.1524" layer="91"/>
 </segment>
@@ -23688,24 +23687,24 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="M1_OUTA" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_A_1"/>
 <wire x1="35.56" y1="215.9" x2="20.32" y2="215.9" width="0.1524" layer="91"/>
 <label x="20.32" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_A_2"/>
 <wire x1="71.12" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
 <label x="78.74" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M1_OUTB" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_B_1"/>
 <wire x1="35.56" y1="203.2" x2="20.32" y2="203.2" width="0.1524" layer="91"/>
 <label x="20.32" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_B_2"/>
 <wire x1="71.12" y1="203.2" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="78.74" y="200.66" size="1.778" layer="95"/>
 </segment>
