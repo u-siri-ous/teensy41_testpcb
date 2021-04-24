@@ -21357,16 +21357,16 @@ Distributor Buerklin, 11G810</description>
 <part name="C7" library="Panasonic 1500uF" deviceset="EEV-FK1C152Q" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22n"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22n"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="61,9k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1,07k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="3,32k"/>
 <part name="R_ELETT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="EXTR_PWR" library="Molex motori" deviceset="43650-0201" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="IC2" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV1" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="M1" library="Molex motori" deviceset="43650-0201" device=""/>
 <part name="M2" library="Molex motori" deviceset="43650-0201" device=""/>
 <part name="M3" library="Molex motori" deviceset="43650-0201" device=""/>
@@ -21400,7 +21400,7 @@ Distributor Buerklin, 11G810</description>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M1-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M1+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="IC3" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV3" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -21414,7 +21414,7 @@ Distributor Buerklin, 11G810</description>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M3-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M3+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="IC4" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV2" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -21428,7 +21428,7 @@ Distributor Buerklin, 11G810</description>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="M2-" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="M2+" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="IC5" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
+<part name="DRV4" library="VNH7070AS" deviceset="VNH7070ASTR" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -21541,13 +21541,14 @@ Distributor Buerklin, 11G810</description>
 <text x="220.98" y="139.7" size="1.778" layer="97">MOTOR CONS</text>
 <text x="325.12" y="154.94" size="1.778" layer="91">TODO:
 -add serials and values
--add roller and kicker connectors (?)
--add US cons if there's room
--decide which uc, arduino promini (16 sensors) or nano 33 BLE (cooler, allows for 20 sensors)
 -add mux!!!!
 
 NOTE:
-in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
+in brd the spacing of ball sensor is inconsistent in S3, S5, S13
+
+TODO if i have space:
+-roller/kicker cons
+-US cons</text>
 <text x="50.8" y="223.52" size="2.54" layer="97">M1</text>
 <text x="160.02" y="223.52" size="2.54" layer="97">M2</text>
 <text x="50.8" y="163.83" size="2.54" layer="97">M3</text>
@@ -21850,15 +21851,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </instance>
 <instance part="R1" gate="G$1" x="229.87" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="228.3714" y="35.56" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="233.172" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="240.03" y="24.13" smashed="yes" rot="R90">
-<attribute name="NAME" x="243.6114" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="243.332" y="20.32" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="243.1034" y="18.288" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="248.92" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="252.73" y="34.0614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="252.73" y="38.862" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R_ELETT" gate="G$1" x="278.13" y="34.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="281.7114" y="30.48" size="1.778" layer="95" rot="R90"/>
@@ -21879,7 +21877,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <instance part="+3V7" gate="G$1" x="284.48" y="170.18" smashed="yes">
 <attribute name="VALUE" x="281.94" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="35.56" y="218.44" smashed="yes">
+<instance part="DRV1" gate="G$1" x="35.56" y="218.44" smashed="yes">
 <attribute name="NAME" x="64.77" y="223.52" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="M1" gate="G$1" x="236.22" y="177.8" smashed="yes">
@@ -21987,7 +21985,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <attribute name="NAME" x="8.636" y="193.548" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="193.548" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC3" gate="G$1" x="35.56" y="158.75" smashed="yes">
+<instance part="DRV3" gate="G$1" x="35.56" y="158.75" smashed="yes">
 <attribute name="NAME" x="64.77" y="163.83" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="P+4" gate="1" x="33.02" y="173.99" smashed="yes">
@@ -22037,7 +22035,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <attribute name="NAME" x="8.636" y="133.858" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="133.858" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC4" gate="G$1" x="144.78" y="218.44" smashed="yes">
+<instance part="DRV2" gate="G$1" x="144.78" y="218.44" smashed="yes">
 <attribute name="NAME" x="173.99" y="223.52" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="P+6" gate="1" x="142.24" y="233.68" smashed="yes">
@@ -22087,7 +22085,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <attribute name="NAME" x="117.856" y="193.548" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.635" y="193.548" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC5" gate="G$1" x="144.78" y="158.75" smashed="yes">
+<instance part="DRV4" gate="G$1" x="144.78" y="158.75" smashed="yes">
 <attribute name="NAME" x="173.99" y="163.83" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="P+8" gate="1" x="142.24" y="173.99" smashed="yes">
@@ -22983,21 +22981,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <pinref part="SUPPLY1" gate="1" pin="V-"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV1" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY2" gate="1" pin="V-"/>
 <wire x1="35.56" y1="218.44" x2="34.29" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="218.44" x2="34.29" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV1" gate="G$1" pin="GND_B_1"/>
 <wire x1="34.29" y1="200.66" x2="34.29" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="200.66" x2="34.29" y2="200.66" width="0.1524" layer="91"/>
 <junction x="34.29" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV1" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY3" gate="1" pin="V-"/>
 <wire x1="71.12" y1="200.66" x2="72.39" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="200.66" x2="72.39" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV1" gate="G$1" pin="GND_A_2"/>
 <wire x1="71.12" y1="218.44" x2="72.39" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="218.44" x2="72.39" y2="200.66" width="0.1524" layer="91"/>
 <junction x="72.39" y="200.66"/>
@@ -23010,21 +23008,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <junction x="95.25" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV3" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY4" gate="1" pin="V-"/>
 <wire x1="35.56" y1="158.75" x2="34.29" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="158.75" x2="34.29" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV3" gate="G$1" pin="GND_B_1"/>
 <wire x1="34.29" y1="140.97" x2="34.29" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="140.97" x2="34.29" y2="140.97" width="0.1524" layer="91"/>
 <junction x="34.29" y="140.97"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV3" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY5" gate="1" pin="V-"/>
 <wire x1="71.12" y1="140.97" x2="72.39" y2="140.97" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="140.97" x2="72.39" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV3" gate="G$1" pin="GND_A_2"/>
 <wire x1="71.12" y1="158.75" x2="72.39" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="158.75" x2="72.39" y2="140.97" width="0.1524" layer="91"/>
 <junction x="72.39" y="140.97"/>
@@ -23037,21 +23035,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <junction x="95.25" y="140.97"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV2" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY6" gate="1" pin="V-"/>
 <wire x1="144.78" y1="218.44" x2="143.51" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="218.44" x2="143.51" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV2" gate="G$1" pin="GND_B_1"/>
 <wire x1="143.51" y1="200.66" x2="143.51" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="200.66" x2="143.51" y2="200.66" width="0.1524" layer="91"/>
 <junction x="143.51" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV2" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY7" gate="1" pin="V-"/>
 <wire x1="180.34" y1="200.66" x2="181.61" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="200.66" x2="181.61" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV2" gate="G$1" pin="GND_A_2"/>
 <wire x1="180.34" y1="218.44" x2="181.61" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="218.44" x2="181.61" y2="200.66" width="0.1524" layer="91"/>
 <junction x="181.61" y="200.66"/>
@@ -23064,21 +23062,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <junction x="204.47" y="200.66"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND_A_1"/>
+<pinref part="DRV4" gate="G$1" pin="GND_A_1"/>
 <pinref part="SUPPLY8" gate="1" pin="V-"/>
 <wire x1="144.78" y1="158.75" x2="143.51" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="158.75" x2="143.51" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="GND_B_1"/>
+<pinref part="DRV4" gate="G$1" pin="GND_B_1"/>
 <wire x1="143.51" y1="140.97" x2="143.51" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="140.97" x2="143.51" y2="140.97" width="0.1524" layer="91"/>
 <junction x="143.51" y="140.97"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND_B_2"/>
+<pinref part="DRV4" gate="G$1" pin="GND_B_2"/>
 <pinref part="SUPPLY9" gate="1" pin="V-"/>
 <wire x1="180.34" y1="140.97" x2="181.61" y2="140.97" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="140.97" x2="181.61" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="GND_A_2"/>
+<pinref part="DRV4" gate="G$1" pin="GND_A_2"/>
 <wire x1="180.34" y1="158.75" x2="181.61" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="158.75" x2="181.61" y2="140.97" width="0.1524" layer="91"/>
 <junction x="181.61" y="140.97"/>
@@ -23122,18 +23120,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="IC2" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_2"/>
 <wire x1="33.02" y1="231.14" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="210.82" x2="33.02" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="208.28" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_1"/>
 <wire x1="35.56" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
 <junction x="33.02" y="210.82"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <wire x1="73.66" y1="231.14" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_3"/>
 <wire x1="73.66" y1="220.98" x2="73.66" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="208.28" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -23147,18 +23145,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="IC3" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_2"/>
 <wire x1="33.02" y1="171.45" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="151.13" x2="33.02" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="148.59" x2="35.56" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_1"/>
 <wire x1="35.56" y1="151.13" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
 <junction x="33.02" y="151.13"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="73.66" y1="171.45" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_3"/>
 <wire x1="73.66" y1="161.29" x2="73.66" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="148.59" x2="71.12" y2="148.59" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -23172,18 +23170,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+12V"/>
-<pinref part="IC4" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_2"/>
 <wire x1="142.24" y1="231.14" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="210.82" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_1"/>
 <wire x1="144.78" y1="210.82" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
 <junction x="142.24" y="210.82"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+12V"/>
 <wire x1="182.88" y1="231.14" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_3"/>
 <wire x1="182.88" y1="220.98" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="208.28" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -23197,18 +23195,18 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<pinref part="IC5" gate="G$1" pin="VCC_2"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_2"/>
 <wire x1="142.24" y1="171.45" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="151.13" x2="142.24" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="148.59" x2="144.78" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="VCC_1"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_1"/>
 <wire x1="144.78" y1="151.13" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
 <junction x="142.24" y="151.13"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+12V"/>
 <wire x1="182.88" y1="171.45" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="VCC_3"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_3"/>
 <wire x1="182.88" y1="161.29" x2="182.88" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="148.59" x2="180.34" y2="148.59" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -23278,12 +23276,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="223.52" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_B_1"/>
 <wire x1="144.78" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <label x="129.54" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_B_2"/>
 <wire x1="180.34" y1="203.2" x2="198.12" y2="203.2" width="0.1524" layer="91"/>
 <label x="187.96" y="200.66" size="1.778" layer="95"/>
 </segment>
@@ -23295,12 +23293,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="223.52" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_B_2"/>
 <wire x1="71.12" y1="143.51" x2="88.9" y2="143.51" width="0.1524" layer="91"/>
 <label x="78.74" y="140.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_B_1"/>
 <wire x1="35.56" y1="143.51" x2="20.32" y2="143.51" width="0.1524" layer="91"/>
 <label x="20.32" y="140.97" size="1.778" layer="95"/>
 </segment>
@@ -23312,12 +23310,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="223.52" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_B_2"/>
 <wire x1="180.34" y1="143.51" x2="198.12" y2="143.51" width="0.1524" layer="91"/>
 <label x="187.96" y="140.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_B_1"/>
 <wire x1="144.78" y1="143.51" x2="129.54" y2="143.51" width="0.1524" layer="91"/>
 <label x="129.54" y="140.97" size="1.778" layer="95"/>
 </segment>
@@ -23329,12 +23327,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="259.08" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_A_1"/>
 <wire x1="144.78" y1="215.9" x2="129.54" y2="215.9" width="0.1524" layer="91"/>
 <label x="129.54" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV2" gate="G$1" pin="OUT_A_2"/>
 <wire x1="180.34" y1="215.9" x2="198.12" y2="215.9" width="0.1524" layer="91"/>
 <label x="187.96" y="215.9" size="1.778" layer="95"/>
 </segment>
@@ -23351,12 +23349,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="259.08" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_A_1"/>
 <wire x1="35.56" y1="156.21" x2="20.32" y2="156.21" width="0.1524" layer="91"/>
 <label x="20.32" y="156.21" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV3" gate="G$1" pin="OUT_A_2"/>
 <wire x1="71.12" y1="156.21" x2="88.9" y2="156.21" width="0.1524" layer="91"/>
 <label x="78.74" y="156.21" size="1.778" layer="95"/>
 </segment>
@@ -23368,12 +23366,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 <label x="259.08" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_A_1"/>
 <wire x1="144.78" y1="156.21" x2="129.54" y2="156.21" width="0.1524" layer="91"/>
 <label x="129.54" y="156.21" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV4" gate="G$1" pin="OUT_A_2"/>
 <wire x1="180.34" y1="156.21" x2="198.12" y2="156.21" width="0.1524" layer="91"/>
 <label x="187.96" y="156.21" size="1.778" layer="95"/>
 </segment>
@@ -23442,14 +23440,14 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN_A"/>
+<pinref part="DRV1" gate="G$1" pin="IN_A"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="213.36" x2="30.48" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN_B"/>
+<pinref part="DRV1" gate="G$1" pin="IN_B"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="205.74" x2="30.48" y2="205.74" width="0.1524" layer="91"/>
 </segment>
@@ -23490,7 +23488,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PWM"/>
+<pinref part="DRV1" gate="G$1" pin="PWM"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="205.74" x2="73.66" y2="205.74" width="0.1524" layer="91"/>
 </segment>
@@ -23504,14 +23502,14 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="IN_A"/>
+<pinref part="DRV3" gate="G$1" pin="IN_A"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="153.67" x2="30.48" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="IN_B"/>
+<pinref part="DRV3" gate="G$1" pin="IN_B"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="146.05" x2="30.48" y2="146.05" width="0.1524" layer="91"/>
 </segment>
@@ -23530,21 +23528,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="PWM"/>
+<pinref part="DRV3" gate="G$1" pin="PWM"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="146.05" x2="73.66" y2="146.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="IN_A"/>
+<pinref part="DRV2" gate="G$1" pin="IN_A"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="213.36" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="IN_B"/>
+<pinref part="DRV2" gate="G$1" pin="IN_B"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="205.74" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
 </segment>
@@ -23563,21 +23561,21 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PWM"/>
+<pinref part="DRV2" gate="G$1" pin="PWM"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="205.74" x2="182.88" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="IN_A"/>
+<pinref part="DRV4" gate="G$1" pin="IN_A"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="153.67" x2="139.7" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="IN_B"/>
+<pinref part="DRV4" gate="G$1" pin="IN_B"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="146.05" x2="139.7" y2="146.05" width="0.1524" layer="91"/>
 </segment>
@@ -23596,7 +23594,7 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="PWM"/>
+<pinref part="DRV4" gate="G$1" pin="PWM"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="146.05" x2="182.88" y2="146.05" width="0.1524" layer="91"/>
 </segment>
@@ -23690,24 +23688,24 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </net>
 <net name="M1_OUTA" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_A_1"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_A_1"/>
 <wire x1="35.56" y1="215.9" x2="20.32" y2="215.9" width="0.1524" layer="91"/>
 <label x="20.32" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_A_2"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_A_2"/>
 <wire x1="71.12" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
 <label x="78.74" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M1_OUTB" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_B_1"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_B_1"/>
 <wire x1="35.56" y1="203.2" x2="20.32" y2="203.2" width="0.1524" layer="91"/>
 <label x="20.32" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT_B_2"/>
+<pinref part="DRV1" gate="G$1" pin="OUT_B_2"/>
 <wire x1="71.12" y1="203.2" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="78.74" y="200.66" size="1.778" layer="95"/>
 </segment>

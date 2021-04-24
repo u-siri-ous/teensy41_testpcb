@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -21357,9 +21357,9 @@ Distributor Buerklin, 11G810</description>
 <part name="C7" library="Panasonic 1500uF" deviceset="EEV-FK1C152Q" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22n"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22n"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="61,9k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1,07k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="3,32k"/>
 <part name="R_ELETT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21539,15 +21539,16 @@ Distributor Buerklin, 11G810</description>
 <wire x1="271.78" y1="142.24" x2="271.78" y2="185.42" width="0.1524" layer="97"/>
 <wire x1="271.78" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="97"/>
 <text x="220.98" y="139.7" size="1.778" layer="97">MOTOR CONS</text>
-<text x="325.12" y="154.94" size="1.778" layer="91">TODO:
+<text x="322.326" y="152.4" size="1.778" layer="91">TODO:
 -add serials and values
--add roller and kicker connectors (?)
--add US cons if there's room
--decide which uc, arduino promini (16 sensors) or nano 33 BLE (cooler, allows for 20 sensors)
 -add mux!!!!
 
 NOTE:
-in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
+in brd the spacing of ball sensor is inconsistent in S3, S5, S13
+
+TODO if i have space:
+-roller/kicker cons
+-US cons</text>
 <text x="50.8" y="223.52" size="2.54" layer="97">M1</text>
 <text x="160.02" y="223.52" size="2.54" layer="97">M2</text>
 <text x="50.8" y="163.83" size="2.54" layer="97">M3</text>
@@ -21850,15 +21851,12 @@ in brd the spacing of ball sensor is inconsistent in S3, S5, S13</text>
 </instance>
 <instance part="R1" gate="G$1" x="229.87" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="228.3714" y="35.56" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="233.172" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="240.03" y="24.13" smashed="yes" rot="R90">
-<attribute name="NAME" x="243.6114" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="243.332" y="20.32" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="243.1034" y="18.288" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="248.92" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="252.73" y="34.0614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="252.73" y="38.862" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R_ELETT" gate="G$1" x="278.13" y="34.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="281.7114" y="30.48" size="1.778" layer="95" rot="R90"/>

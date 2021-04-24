@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=MUX506IDWR
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=28
-Version=3.1
-Released=2019-02-18 14:18:32
-Downloaded=2021-03-17 18:46:56
-3D=Y
