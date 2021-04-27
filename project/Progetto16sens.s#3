@@ -21297,9 +21297,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"&gt; Datashe
 <wire x1="271.78" y1="142.24" x2="271.78" y2="185.42" width="0.1524" layer="97"/>
 <wire x1="271.78" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="97"/>
 <text x="220.98" y="139.7" size="1.778" layer="97">MOTOR CONS</text>
-<text x="522.986" y="205.74" size="1.778" layer="91">TODO:
+<text x="322.326" y="152.4" size="1.778" layer="91">TODO:
 -add serials and values
--add mux!!!!
 
 NOTE:
 in brd the spacing of ball sensor is inconsistent in S3, S5, S13
