@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -24691,11 +24691,6 @@ TODO if i have space:
 <label x="223.52" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="177.8" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
-<label x="223.52" y="177.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DRV2" gate="G$1" pin="OUT_B_1"/>
 <wire x1="144.78" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <label x="129.54" y="200.66" size="1.778" layer="95"/>
@@ -24762,11 +24757,6 @@ TODO if i have space:
 <pinref part="M3" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="157.48" x2="269.24" y2="157.48" width="0.1524" layer="91"/>
 <label x="259.08" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="M1" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="177.8" x2="269.24" y2="177.8" width="0.1524" layer="91"/>
-<label x="259.08" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="DRV3" gate="G$1" pin="OUT_A_1"/>
@@ -25117,6 +25107,11 @@ TODO if i have space:
 <wire x1="71.12" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
 <label x="78.74" y="215.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="177.8" x2="269.24" y2="177.8" width="0.1524" layer="91"/>
+<label x="259.08" y="177.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="M1_OUTB" class="0">
 <segment>
@@ -25128,6 +25123,11 @@ TODO if i have space:
 <pinref part="DRV1" gate="G$1" pin="OUT_B_2"/>
 <wire x1="71.12" y1="203.2" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
 <label x="78.74" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="177.8" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
+<label x="223.52" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
