@@ -21946,14 +21946,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <packages>
 <package name="TEENSY41_EDIT">
 <pad name="GND" x="-27.94" y="-7.62" drill="1" shape="square"/>
-<pad name="GND_3" x="17.78" y="0" drill="1" shape="square"/>
 <pad name="GND_2" x="-25.4" y="7.62" drill="1" shape="square" rot="R90"/>
 <pad name="VIN" x="-27.94" y="7.62" drill="1" diameter="1.6764" rot="R180"/>
 <pad name="3V3_1" x="-22.86" y="7.62" drill="1" shape="octagon" rot="R90"/>
-<pad name="3V3_2" x="17.78" y="-2.54" drill="1" shape="octagon" rot="R90"/>
-<pad name="VBAT" x="17.78" y="-5.08" drill="1" rot="R90"/>
-<pad name="PROGRAM" x="17.78" y="2.54" drill="1" rot="R180"/>
-<pad name="ON/OFF" x="17.78" y="5.08" drill="1" rot="R180"/>
 <pad name="13(LED)/SCK" x="5.08" y="7.62" drill="1" rot="R90"/>
 <pad name="12/MISO" x="5.08" y="-7.62" drill="1" rot="R90"/>
 <pad name="0/RX1" x="-25.4" y="-7.62" drill="1" rot="R90"/>
@@ -21989,8 +21984,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-24.765" y1="3.81" x2="-30.48" y2="3.81" width="0.127" layer="21"/>
 <text x="-5.08" y="0" size="1.27" layer="21">TEENSY 4.1</text>
 <text x="-25.148909375" y="-1.124321875" size="0.8128" layer="21" rot="R90">USB</text>
-<text x="13.843" y="-4.826" size="0.6096" layer="21">3 VOLT</text>
-<text x="12.954" y="-5.5118" size="0.6096" layer="21">COIN CEL</text>
 <pad name="3V3" x="7.62" y="-7.62" drill="1" shape="octagon" rot="R90"/>
 <pad name="25/A11/RX6/SDA2" x="12.7" y="-7.62" drill="1" rot="R90"/>
 <pad name="26/A12/MOSI1" x="15.24" y="-7.62" drill="1" rot="R90"/>
@@ -22009,21 +22002,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pad name="35/TX8" x="25.4" y="7.62" drill="1" rot="R90"/>
 <pad name="34/RX8" x="27.94" y="7.62" drill="1" rot="R90"/>
 <pad name="33" x="30.48" y="7.62" drill="1" rot="R90"/>
-<wire x1="12.1666" y1="-1.54" x2="15.7734" y2="-1.54" width="0.127" layer="21"/>
-<wire x1="15.7734" y1="-1.54" x2="15.7734" y2="1.54" width="0.127" layer="21"/>
-<wire x1="15.7734" y1="1.54" x2="12.1666" y2="1.54" width="0.127" layer="21"/>
-<wire x1="12.1666" y1="1.54" x2="12.1666" y2="-1.54" width="0.127" layer="21"/>
-<wire x1="31.75" y1="6.35" x2="19.05" y2="6.35" width="0.127" layer="21"/>
-<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="19.05" y1="-6.35" x2="31.75" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="31.75" y1="-6.35" x2="31.75" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="31.75" y1="-5.08" x2="31.75" y2="5.08" width="0.127" layer="21"/>
-<wire x1="31.75" y1="5.08" x2="30.48" y2="5.08" width="0.127" layer="21"/>
-<wire x1="30.48" y1="5.08" x2="30.48" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="30.48" y1="-5.08" x2="31.75" y2="-5.08" width="0.127" layer="21"/>
 <pad name="24/A10/TX6/SCL2" x="10.16" y="-7.62" locked="yes" drill="1" rot="R90"/>
 <pad name="GND_1" x="7.62" y="7.62" drill="1" shape="square"/>
-<circle x="13.97" y="0" radius="1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -22040,17 +22020,17 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pin name="9" x="-17.78" y="2.54" visible="pin" length="middle"/>
 <pin name="10/CS" x="-17.78" y="0" visible="pin" length="middle"/>
 <pin name="11/MOSI" x="-17.78" y="-2.54" visible="pin" length="middle"/>
-<pin name="13(LED)/SCK" x="38.1" y="-6.35" visible="pin" length="middle" rot="R180"/>
-<pin name="14/A0/TX3" x="38.1" y="-3.81" visible="pin" length="middle" rot="R180"/>
-<pin name="15/A1/TX3" x="38.1" y="-1.27" visible="pin" length="middle" rot="R180"/>
-<pin name="16/A2/RX4/SCL1" x="38.1" y="1.27" visible="pin" length="middle" rot="R180"/>
-<pin name="17/A3/TX4/SDA1" x="38.1" y="3.81" visible="pin" length="middle" rot="R180"/>
-<pin name="18/A4/SDA" x="38.1" y="6.35" visible="pin" length="middle" rot="R180"/>
-<pin name="19/A5/SCL" x="38.1" y="8.89" visible="pin" length="middle" rot="R180"/>
-<pin name="20/A6/TX5" x="38.1" y="11.43" visible="pin" length="middle" rot="R180"/>
-<pin name="21/A7/RX5" x="38.1" y="13.97" visible="pin" length="middle" rot="R180"/>
-<pin name="22/A8" x="38.1" y="16.51" visible="pin" length="middle" rot="R180"/>
-<pin name="23/A9" x="38.1" y="19.05" visible="pin" length="middle" rot="R180"/>
+<pin name="13(LED)/SCK" x="30.48" y="-6.35" visible="pin" length="middle" rot="R180"/>
+<pin name="14/A0/TX3" x="30.48" y="-3.81" visible="pin" length="middle" rot="R180"/>
+<pin name="15/A1/TX3" x="30.48" y="-1.27" visible="pin" length="middle" rot="R180"/>
+<pin name="16/A2/RX4/SCL1" x="30.48" y="1.27" visible="pin" length="middle" rot="R180"/>
+<pin name="17/A3/TX4/SDA1" x="30.48" y="3.81" visible="pin" length="middle" rot="R180"/>
+<pin name="18/A4/SDA" x="30.48" y="6.35" visible="pin" length="middle" rot="R180"/>
+<pin name="19/A5/SCL" x="30.48" y="8.89" visible="pin" length="middle" rot="R180"/>
+<pin name="20/A6/TX5" x="30.48" y="11.43" visible="pin" length="middle" rot="R180"/>
+<pin name="21/A7/RX5" x="30.48" y="13.97" visible="pin" length="middle" rot="R180"/>
+<pin name="22/A8" x="30.48" y="16.51" visible="pin" length="middle" rot="R180"/>
+<pin name="23/A9" x="30.48" y="19.05" visible="pin" length="middle" rot="R180"/>
 <pin name="24/A10/TX6/SCL2" x="-17.78" y="-10.16" visible="pin" length="middle"/>
 <pin name="25/A11/RX6/SDA2" x="-17.78" y="-12.7" visible="pin" length="middle"/>
 <pin name="26/A12/MOSI1" x="-17.78" y="-15.24" visible="pin" length="middle"/>
@@ -22060,32 +22040,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pin name="30" x="-17.78" y="-25.4" visible="pin" length="middle"/>
 <pin name="31" x="-17.78" y="-27.94" visible="pin" length="middle"/>
 <pin name="32" x="-17.78" y="-30.48" visible="pin" length="middle"/>
-<pin name="33" x="38.1" y="-31.75" visible="pin" length="middle" rot="R180"/>
-<pin name="34/RX8" x="38.1" y="-29.21" visible="pin" length="middle" rot="R180"/>
-<pin name="35/TX8" x="38.1" y="-26.67" visible="pin" length="middle" rot="R180"/>
-<pin name="36/CS" x="38.1" y="-24.13" visible="pin" length="middle" rot="R180"/>
-<pin name="37/CS" x="38.1" y="-21.59" visible="pin" length="middle" rot="R180"/>
-<pin name="38/A14/(CS1)" x="38.1" y="-19.05" visible="pin" length="middle" rot="R180"/>
-<pin name="39/A15/(MISO1)" x="38.1" y="-16.51" visible="pin" length="middle" rot="R180"/>
-<pin name="40/A16" x="38.1" y="-13.97" visible="pin" length="middle" rot="R180"/>
-<pin name="41/A17" x="38.1" y="-11.43" visible="pin" length="middle" rot="R180"/>
-<pin name="GND_1" x="38.1" y="-8.89" visible="pin" length="middle" rot="R180"/>
-<pin name="3V3_1" x="38.1" y="21.59" visible="pin" length="middle" rot="R180"/>
-<pin name="GND_2" x="38.1" y="24.13" visible="pin" length="middle" rot="R180"/>
-<pin name="VIN" x="38.1" y="26.67" visible="pin" length="middle" rot="R180"/>
+<pin name="33" x="30.48" y="-31.75" visible="pin" length="middle" rot="R180"/>
+<pin name="34/RX8" x="30.48" y="-29.21" visible="pin" length="middle" rot="R180"/>
+<pin name="35/TX8" x="30.48" y="-26.67" visible="pin" length="middle" rot="R180"/>
+<pin name="36/CS" x="30.48" y="-24.13" visible="pin" length="middle" rot="R180"/>
+<pin name="37/CS" x="30.48" y="-21.59" visible="pin" length="middle" rot="R180"/>
+<pin name="38/A14/(CS1)" x="30.48" y="-19.05" visible="pin" length="middle" rot="R180"/>
+<pin name="39/A15/(MISO1)" x="30.48" y="-16.51" visible="pin" length="middle" rot="R180"/>
+<pin name="40/A16" x="30.48" y="-13.97" visible="pin" length="middle" rot="R180"/>
+<pin name="41/A17" x="30.48" y="-11.43" visible="pin" length="middle" rot="R180"/>
+<pin name="GND_1" x="30.48" y="-8.89" visible="pin" length="middle" rot="R180"/>
+<pin name="3V3_1" x="30.48" y="21.59" visible="pin" length="middle" rot="R180"/>
+<pin name="GND_2" x="30.48" y="24.13" visible="pin" length="middle" rot="R180"/>
+<pin name="VIN" x="30.48" y="26.67" visible="pin" length="middle" rot="R180"/>
 <pin name="GND" x="-17.78" y="27.94" visible="pin" length="middle"/>
 <pin name="3V3" x="-17.78" y="-7.62" visible="pin" length="middle"/>
-<pin name="ON/OFF" x="5.08" y="38.1" visible="pin" length="middle" rot="R270"/>
-<pin name="PROGRAM" x="7.62" y="38.1" visible="pin" length="middle" rot="R270"/>
-<pin name="GND_3" x="10.16" y="38.1" visible="pin" length="middle" rot="R270"/>
-<pin name="3V3_2" x="12.7" y="38.1" visible="pin" length="middle" rot="R270"/>
-<pin name="VBAT" x="15.24" y="38.1" visible="pin" length="middle" rot="R270"/>
 <pin name="12/MISO" x="-17.78" y="-5.08" visible="pin" length="middle"/>
-<wire x1="-12.7" y1="33.02" x2="33.02" y2="33.02" width="0.254" layer="94"/>
-<wire x1="33.02" y1="33.02" x2="33.02" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-35.56" x2="-12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="33.02" x2="25.4" y2="33.02" width="0.254" layer="94"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-35.56" x2="-12.7" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-35.56" x2="-12.7" y2="33.02" width="0.254" layer="94"/>
-<pin name="VUSB" x="38.1" y="29.21" visible="pin" length="middle" rot="R180"/>
+<pin name="VUSB" x="30.48" y="29.21" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22132,7 +22107,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <connect gate="G$1" pin="39/A15/(MISO1)" pad="39/A15/(MISO1)"/>
 <connect gate="G$1" pin="3V3" pad="3V3"/>
 <connect gate="G$1" pin="3V3_1" pad="3V3_1"/>
-<connect gate="G$1" pin="3V3_2" pad="3V3_2"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="40/A16" pad="40/A16"/>
 <connect gate="G$1" pin="41/A17" pad="41/A17"/>
@@ -22144,10 +22118,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GND_1" pad="GND_1"/>
 <connect gate="G$1" pin="GND_2" pad="GND_2"/>
-<connect gate="G$1" pin="GND_3" pad="GND_3"/>
-<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
-<connect gate="G$1" pin="PROGRAM" pad="PROGRAM"/>
-<connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VUSB" pad="VUSB"/>
 </connects>
@@ -24387,21 +24357,6 @@ TODO if i have space:
 <pinref part="R_MOT" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VMOT" class="0">
-<segment>
-<pinref part="SW_MOT" gate="1" pin="P"/>
-<wire x1="261.62" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R_MOT" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="101.6" x2="275.59" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="104.14" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
-<junction x="264.16" y="101.6"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="271.78" y1="104.14" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
-<junction x="271.78" y="101.6"/>
-<label x="275.59" y="101.6" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="V-" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -24519,11 +24474,6 @@ TODO if i have space:
 </segment>
 </net>
 <net name="+12V" class="0">
-<segment>
-<pinref part="SW_ELETT" gate="1" pin="P"/>
-<wire x1="261.62" y1="124.46" x2="276.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="276.86" y="124.46" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <wire x1="227.33" y1="48.26" x2="227.33" y2="45.72" width="0.1524" layer="91"/>
@@ -24646,6 +24596,22 @@ TODO if i have space:
 <wire x1="204.47" y1="161.29" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="204.47" y1="156.21" x2="204.47" y2="161.29" width="0.1524" layer="91"/>
 <junction x="204.47" y="161.29"/>
+</segment>
+<segment>
+<pinref part="SW_MOT" gate="1" pin="P"/>
+<wire x1="261.62" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R_MOT" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="104.14" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<junction x="264.16" y="101.6"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="271.78" y1="104.14" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
+<junction x="271.78" y="101.6"/>
+<pinref part="SW_ELETT" gate="1" pin="P"/>
+<wire x1="261.62" y1="124.46" x2="277.876" y2="124.46" width="0.1524" layer="91"/>
+<label x="277.876" y="124.46" size="1.778" layer="95" xref="yes"/>
+<wire x1="271.78" y1="101.6" x2="277.876" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="277.876" y1="101.6" x2="277.876" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25173,7 +25139,7 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="34/RX8"/>
 <pinref part="SV3" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="30.48" x2="95.25" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="30.48" x2="95.25" y2="30.48" width="0.1524" layer="91"/>
 <label x="83.82" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -25186,7 +25152,7 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="33"/>
 <pinref part="SV3" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="27.94" x2="95.25" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="27.94" x2="95.25" y2="27.94" width="0.1524" layer="91"/>
 <label x="83.82" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -25199,7 +25165,7 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="35/TX8"/>
 <pinref part="SV3" gate="G$1" pin="3"/>
-<wire x1="83.82" y1="33.02" x2="95.25" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="95.25" y2="33.02" width="0.1524" layer="91"/>
 <label x="83.82" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -25212,7 +25178,7 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="36/CS"/>
 <pinref part="SV3" gate="G$1" pin="4"/>
-<wire x1="83.82" y1="35.56" x2="95.25" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="35.56" x2="95.25" y2="35.56" width="0.1524" layer="91"/>
 <label x="83.82" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -25396,34 +25362,34 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <pinref part="SV6" gate="G$1" pin="12"/>
-<wire x1="83.82" y1="86.36" x2="95.25" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="86.36" x2="95.25" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$93" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="23/A9"/>
 <pinref part="SV6" gate="G$1" pin="9"/>
-<wire x1="83.82" y1="78.74" x2="95.25" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="78.74" x2="95.25" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$94" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="22/A8"/>
 <pinref part="SV6" gate="G$1" pin="8"/>
-<wire x1="83.82" y1="76.2" x2="95.25" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="76.2" x2="95.25" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$95" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="21/A7/RX5"/>
 <pinref part="SV6" gate="G$1" pin="7"/>
-<wire x1="83.82" y1="73.66" x2="95.25" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="73.66" x2="95.25" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$96" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="20/A6/TX5"/>
-<wire x1="83.82" y1="71.12" x2="95.25" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="71.12" x2="95.25" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SV6" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -25431,83 +25397,83 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="19/A5/SCL"/>
 <pinref part="SV6" gate="G$1" pin="5"/>
-<wire x1="83.82" y1="68.58" x2="95.25" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="68.58" x2="95.25" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$98" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="18/A4/SDA"/>
 <pinref part="SV6" gate="G$1" pin="4"/>
-<wire x1="83.82" y1="66.04" x2="95.25" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="66.04" x2="95.25" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$99" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="17/A3/TX4/SDA1"/>
 <pinref part="SV6" gate="G$1" pin="3"/>
-<wire x1="83.82" y1="63.5" x2="95.25" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="63.5" x2="95.25" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$100" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="16/A2/RX4/SCL1"/>
 <pinref part="SV6" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="60.96" x2="95.25" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="60.96" x2="95.25" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$101" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="15/A1/TX3"/>
 <pinref part="SV6" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="58.42" x2="95.25" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="58.42" x2="95.25" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$102" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="14/A0/TX3"/>
 <pinref part="SV3" gate="G$1" pin="12"/>
-<wire x1="83.82" y1="55.88" x2="95.25" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="55.88" x2="95.25" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$103" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="13(LED)/SCK"/>
 <pinref part="SV3" gate="G$1" pin="11"/>
-<wire x1="83.82" y1="53.34" x2="95.25" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="53.34" x2="95.25" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$105" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="41/A17"/>
 <pinref part="SV3" gate="G$1" pin="9"/>
-<wire x1="83.82" y1="48.26" x2="95.25" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="48.26" x2="95.25" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$106" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="40/A16"/>
 <pinref part="SV3" gate="G$1" pin="8"/>
-<wire x1="83.82" y1="45.72" x2="95.25" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="45.72" x2="95.25" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$107" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="38/A14/(CS1)"/>
 <pinref part="SV3" gate="G$1" pin="6"/>
-<wire x1="83.82" y1="40.64" x2="95.25" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="40.64" x2="95.25" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$108" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="39/A15/(MISO1)"/>
-<wire x1="83.82" y1="43.18" x2="95.25" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="43.18" x2="95.25" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SV3" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="N$109" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="37/CS"/>
-<wire x1="83.82" y1="38.1" x2="95.25" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="38.1" x2="95.25" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SV3" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -25571,21 +25537,21 @@ TODO if i have space:
 <segment>
 <pinref part="U$1" gate="G$1" pin="3V3_1"/>
 <pinref part="SV6" gate="G$1" pin="10"/>
-<wire x1="83.82" y1="81.28" x2="95.25" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="81.28" x2="95.25" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
 <pinref part="SV6" gate="G$1" pin="11"/>
 <pinref part="U$1" gate="G$1" pin="GND_2"/>
-<wire x1="83.82" y1="83.82" x2="95.25" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="83.82" x2="95.25" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
 <pinref part="SV3" gate="G$1" pin="10"/>
 <pinref part="U$1" gate="G$1" pin="GND_1"/>
-<wire x1="83.82" y1="50.8" x2="95.25" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="50.8" x2="95.25" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$82" class="0">
