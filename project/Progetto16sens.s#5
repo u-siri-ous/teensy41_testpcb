@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -22600,10 +22600,10 @@ Footprint without programming pads</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100u"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LS_1" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
-<part name="LS_2" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
-<part name="LS_3" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
-<part name="LS_4" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
+<part name="LS_N" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
+<part name="LS_E" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
+<part name="LS_S" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
+<part name="LS_W" library="OPL_Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:8004548/1" value="4P-2.0"/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -22718,6 +22718,7 @@ Footprint without programming pads</description>
 <part name="S17" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1"/>
 <part name="S18" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1"/>
 <part name="S19" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1"/>
+<part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22803,9 +22804,9 @@ TODO if i have space:
 <wire x1="274.32" y1="238.76" x2="220.98" y2="238.76" width="0.1524" layer="97"/>
 <text x="220.98" y="187.96" size="1.778" layer="97">IMU</text>
 <wire x1="492.76" y1="33.02" x2="492.76" y2="2.54" width="0.1524" layer="97"/>
-<wire x1="492.76" y1="2.54" x2="520.7" y2="2.54" width="0.1524" layer="97"/>
-<wire x1="520.7" y1="2.54" x2="520.7" y2="33.02" width="0.1524" layer="97"/>
-<wire x1="520.7" y1="33.02" x2="492.76" y2="33.02" width="0.1524" layer="97"/>
+<wire x1="492.76" y1="2.54" x2="525.78" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="525.78" y1="2.54" x2="525.78" y2="33.02" width="0.1524" layer="97"/>
+<wire x1="525.78" y1="33.02" x2="492.76" y2="33.02" width="0.1524" layer="97"/>
 <text x="492.76" y="0" size="1.778" layer="97">BLUETOOTH</text>
 <wire x1="447.04" y1="134.62" x2="447.04" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="447.04" y1="58.42" x2="541.02" y2="58.42" width="0.1524" layer="97"/>
@@ -23104,16 +23105,16 @@ TODO if i have space:
 <instance part="GND29" gate="1" x="312.42" y="186.69" smashed="yes">
 <attribute name="VALUE" x="309.88" y="184.15" size="1.778" layer="96"/>
 </instance>
-<instance part="LS_1" gate="G$1" x="454.66" y="40.64" smashed="yes" rot="MR0">
+<instance part="LS_N" gate="G$1" x="454.66" y="40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="455.93" y="46.99" size="1.27" layer="95" ratio="10" rot="MR0"/>
 </instance>
-<instance part="LS_2" gate="G$1" x="474.98" y="40.64" smashed="yes" rot="MR0">
+<instance part="LS_E" gate="G$1" x="474.98" y="40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="476.25" y="46.99" size="1.27" layer="95" ratio="10" rot="MR0"/>
 </instance>
-<instance part="LS_3" gate="G$1" x="454.66" y="16.51" smashed="yes" rot="MR0">
+<instance part="LS_S" gate="G$1" x="454.66" y="16.51" smashed="yes" rot="MR0">
 <attribute name="NAME" x="455.93" y="22.86" size="1.27" layer="95" ratio="10" rot="MR0"/>
 </instance>
-<instance part="LS_4" gate="G$1" x="474.98" y="16.51" smashed="yes" rot="MR0">
+<instance part="LS_W" gate="G$1" x="474.98" y="16.51" smashed="yes" rot="MR0">
 <attribute name="NAME" x="476.25" y="22.86" size="1.27" layer="95" ratio="10" rot="MR0"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="462.28" y="50.8" smashed="yes">
@@ -23356,14 +23357,14 @@ TODO if i have space:
 <instance part="BT_CON" gate="G$1" x="500.38" y="20.32" smashed="yes" rot="MR0">
 <attribute name="NAME" x="504.19" y="26.67" size="1.27" layer="95" ratio="10" rot="MR0"/>
 </instance>
-<instance part="C20" gate="G$1" x="513.08" y="19.05" smashed="yes">
-<attribute name="NAME" x="514.604" y="19.431" size="1.778" layer="95"/>
+<instance part="C20" gate="G$1" x="518.16" y="19.05" smashed="yes">
+<attribute name="NAME" x="519.684" y="19.431" size="1.778" layer="95"/>
 </instance>
-<instance part="+3V14" gate="G$1" x="513.08" y="30.48" smashed="yes">
-<attribute name="VALUE" x="510.54" y="25.4" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V14" gate="G$1" x="518.16" y="30.48" smashed="yes">
+<attribute name="VALUE" x="515.62" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND39" gate="1" x="513.08" y="7.62" smashed="yes">
-<attribute name="VALUE" x="510.54" y="5.08" size="1.778" layer="96"/>
+<instance part="GND39" gate="1" x="518.16" y="7.62" smashed="yes">
+<attribute name="VALUE" x="515.62" y="5.08" size="1.778" layer="96"/>
 </instance>
 <instance part="S_B1" gate="G$1" x="452.12" y="124.46" smashed="yes">
 <attribute name="VALUE" x="450.85" y="116.84" size="1.778" layer="96"/>
@@ -23472,8 +23473,8 @@ TODO if i have space:
 <attribute name="VALUE" x="120.65" y="48.26" size="1.778" layer="96"/>
 <attribute name="NAME" x="120.65" y="84.582" size="1.778" layer="95"/>
 </instance>
-<instance part="GND23" gate="1" x="149.86" y="16.51" smashed="yes">
-<attribute name="VALUE" x="147.32" y="13.97" size="1.778" layer="96"/>
+<instance part="GND23" gate="1" x="152.4" y="16.51" smashed="yes">
+<attribute name="VALUE" x="149.86" y="13.97" size="1.778" layer="96"/>
 </instance>
 <instance part="GND24" gate="1" x="68.58" y="10.16" smashed="yes">
 <attribute name="VALUE" x="66.04" y="7.62" size="1.778" layer="96"/>
@@ -23481,8 +23482,8 @@ TODO if i have space:
 <instance part="+3V16" gate="G$1" x="88.9" y="107.95" smashed="yes">
 <attribute name="VALUE" x="86.36" y="104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="J$1" x="162.56" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="156.972" y="25.4" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="J2" gate="J$1" x="162.56" y="27.94" smashed="yes" rot="MR90">
+<attribute name="NAME" x="168.148" y="25.4" size="1.778" layer="95" font="vector" rot="MR90"/>
 </instance>
 <instance part="GND25" gate="1" x="464.82" y="63.5" smashed="yes">
 <attribute name="VALUE" x="462.28" y="60.96" size="1.778" layer="96"/>
@@ -23510,6 +23511,9 @@ TODO if i have space:
 <instance part="S19" gate="BEF1" x="500.38" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="502.92" y="165.1" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="502.92" y="167.64" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V15" gate="G$1" x="342.9" y="236.22" smashed="yes">
+<attribute name="VALUE" x="340.36" y="231.14" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -23549,12 +23553,6 @@ TODO if i have space:
 <label x="336.55" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV4" gate="G$1" pin="12"/>
-<pinref part="M5" gate="G$1" pin="D1/TX"/>
-<wire x1="129.54" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
-<label x="129.54" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B1" gate="G$1" pin="3"/>
 <wire x1="459.74" y1="127" x2="466.09" y2="127" width="0.1524" layer="91"/>
 <label x="459.74" y="127" size="1.778" layer="95"/>
@@ -23563,6 +23561,17 @@ TODO if i have space:
 <pinref part="S_B1" gate="G$1" pin="1"/>
 <wire x1="459.74" y1="121.92" x2="466.09" y2="121.92" width="0.1524" layer="91"/>
 <label x="459.74" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A7"/>
+<pinref part="J2" gate="J$1" pin="3"/>
+<wire x1="165.1" y1="38.1" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A5"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+<label x="172.72" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2" class="0">
@@ -23577,12 +23586,6 @@ TODO if i have space:
 <label x="336.55" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV4" gate="G$1" pin="11"/>
-<pinref part="M5" gate="G$1" pin="D0/RX"/>
-<wire x1="129.54" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<label x="129.54" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B2" gate="G$1" pin="3"/>
 <wire x1="477.52" y1="127" x2="483.87" y2="127" width="0.1524" layer="91"/>
 <label x="477.52" y="127" size="1.778" layer="95"/>
@@ -23591,6 +23594,12 @@ TODO if i have space:
 <pinref part="S_B2" gate="G$1" pin="1"/>
 <wire x1="477.52" y1="121.92" x2="483.87" y2="121.92" width="0.1524" layer="91"/>
 <label x="477.52" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A4"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="83.82" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+<label x="172.72" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B3" class="0">
@@ -23843,25 +23852,25 @@ TODO if i have space:
 <junction x="312.42" y="191.77"/>
 </segment>
 <segment>
-<pinref part="LS_1" gate="G$1" pin="4"/>
+<pinref part="LS_N" gate="G$1" pin="4"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="458.47" y1="36.83" x2="462.28" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="36.83" x2="462.28" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LS_3" gate="G$1" pin="4"/>
+<pinref part="LS_S" gate="G$1" pin="4"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="458.47" y1="12.7" x2="462.28" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="12.7" x2="462.28" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LS_4" gate="G$1" pin="4"/>
+<pinref part="LS_W" gate="G$1" pin="4"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="478.79" y1="12.7" x2="482.6" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="12.7" x2="482.6" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LS_2" gate="G$1" pin="4"/>
+<pinref part="LS_E" gate="G$1" pin="4"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="478.79" y1="36.83" x2="482.6" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="36.83" x2="482.6" y2="34.29" width="0.1524" layer="91"/>
@@ -23904,13 +23913,13 @@ TODO if i have space:
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="513.08" y1="10.16" x2="513.08" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="10.16" x2="518.16" y2="11.43" width="0.1524" layer="91"/>
 <pinref part="BT_CON" gate="G$1" pin="2"/>
-<wire x1="513.08" y1="11.43" x2="513.08" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="504.19" y1="21.59" x2="509.27" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="509.27" y1="21.59" x2="509.27" y2="11.43" width="0.1524" layer="91"/>
-<wire x1="509.27" y1="11.43" x2="513.08" y2="11.43" width="0.1524" layer="91"/>
-<junction x="513.08" y="11.43"/>
+<wire x1="518.16" y1="11.43" x2="518.16" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="504.19" y1="21.59" x2="514.35" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="514.35" y1="21.59" x2="514.35" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="514.35" y1="11.43" x2="518.16" y2="11.43" width="0.1524" layer="91"/>
+<junction x="518.16" y="11.43"/>
 </segment>
 <segment>
 <pinref part="BALL_MUX" gate="G$1" pin="GND"/>
@@ -23997,6 +24006,28 @@ TODO if i have space:
 <junction x="535.94" y="88.9"/>
 <pinref part="GND43" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="9"/>
+<pinref part="M5" gate="G$1" pin="GND.1"/>
+<wire x1="129.54" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="137.16" y1="73.66" x2="137.16" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="19.05" x2="152.4" y2="19.05" width="0.1524" layer="91"/>
+<junction x="137.16" y="73.66"/>
+<pinref part="M5" gate="G$1" pin="GND.3"/>
+<pinref part="J2" gate="J$1" pin="1"/>
+<wire x1="160.02" y1="38.1" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="19.05" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
+<junction x="152.4" y="19.05"/>
+<junction x="160.02" y="38.1"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="M5" gate="G$1" pin="GND.2"/>
+<wire x1="172.72" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="78.74" x2="180.34" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="19.05" x2="152.4" y2="19.05" width="0.1524" layer="91"/>
+<junction x="180.34" y="78.74"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -24068,25 +24099,25 @@ TODO if i have space:
 <junction x="285.75" y="224.79"/>
 </segment>
 <segment>
-<pinref part="LS_1" gate="G$1" pin="1"/>
+<pinref part="LS_N" gate="G$1" pin="1"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="458.47" y1="44.45" x2="462.28" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="44.45" x2="462.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LS_3" gate="G$1" pin="1"/>
+<pinref part="LS_S" gate="G$1" pin="1"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <wire x1="458.47" y1="20.32" x2="462.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="20.32" x2="462.28" y2="24.13" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LS_2" gate="G$1" pin="1"/>
+<pinref part="LS_E" gate="G$1" pin="1"/>
 <wire x1="478.79" y1="44.45" x2="482.6" y2="44.45" width="0.1524" layer="91"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <wire x1="482.6" y1="44.45" x2="482.6" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LS_4" gate="G$1" pin="1"/>
+<pinref part="LS_W" gate="G$1" pin="1"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="478.79" y1="20.32" x2="482.6" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="20.32" x2="482.6" y2="24.13" width="0.1524" layer="91"/>
@@ -24112,11 +24143,11 @@ TODO if i have space:
 <segment>
 <pinref part="BT_CON" gate="G$1" pin="1"/>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
-<wire x1="504.19" y1="24.13" x2="513.08" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="513.08" y1="24.13" x2="513.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="504.19" y1="24.13" x2="518.16" y2="24.13" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="24.13" x2="518.16" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="513.08" y1="21.59" x2="513.08" y2="24.13" width="0.1524" layer="91"/>
-<junction x="513.08" y="24.13"/>
+<wire x1="518.16" y1="21.59" x2="518.16" y2="24.13" width="0.1524" layer="91"/>
+<junction x="518.16" y="24.13"/>
 </segment>
 <segment>
 <pinref part="BALL_MUX" gate="G$1" pin="VCC"/>
@@ -24127,6 +24158,12 @@ TODO if i have space:
 <wire x1="416.56" y1="205.74" x2="419.1" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="205.74" x2="419.1" y2="226.06" width="0.1524" layer="91"/>
 <junction x="419.1" y="226.06"/>
+</segment>
+<segment>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+<wire x1="342.9" y1="233.68" x2="342.9" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="BALL_MUX" gate="G$1" pin="COMMON_INPUT/OUTPUT"/>
+<wire x1="342.9" y1="226.06" x2="346.71" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -24375,12 +24412,6 @@ TODO if i have space:
 <label x="398.78" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A4"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="83.82" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
-<label x="172.72" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B12" gate="G$1" pin="3"/>
 <wire x1="477.52" y1="91.44" x2="483.87" y2="91.44" width="0.1524" layer="91"/>
 <label x="477.52" y="91.44" size="1.778" layer="95"/>
@@ -24389,6 +24420,12 @@ TODO if i have space:
 <pinref part="S_B12" gate="G$1" pin="1"/>
 <wire x1="477.52" y1="86.36" x2="483.87" y2="86.36" width="0.1524" layer="91"/>
 <label x="477.52" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A3"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="172.72" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+<label x="172.72" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B11" class="0">
@@ -24401,12 +24438,6 @@ TODO if i have space:
 <pinref part="BALL_MUX" gate="G$1" pin="I10"/>
 <wire x1="392.43" y1="218.44" x2="402.59" y2="218.44" width="0.1524" layer="91"/>
 <label x="398.78" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="M5" gate="G$1" pin="A5"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
-<label x="172.72" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B11" gate="G$1" pin="3"/>
@@ -24431,12 +24462,6 @@ TODO if i have space:
 <label x="398.78" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A3"/>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="172.72" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
-<label x="172.72" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B13" gate="G$1" pin="3"/>
 <wire x1="495.3" y1="91.44" x2="501.65" y2="91.44" width="0.1524" layer="91"/>
 <label x="495.3" y="91.44" size="1.778" layer="95"/>
@@ -24445,6 +24470,12 @@ TODO if i have space:
 <pinref part="S_B13" gate="G$1" pin="1"/>
 <wire x1="495.3" y1="86.36" x2="501.65" y2="86.36" width="0.1524" layer="91"/>
 <label x="495.3" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A2"/>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="172.72" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="172.72" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B14" class="0">
@@ -24459,12 +24490,6 @@ TODO if i have space:
 <label x="398.78" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A2"/>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="172.72" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
-<label x="172.72" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B14" gate="G$1" pin="3"/>
 <wire x1="513.08" y1="91.44" x2="519.43" y2="91.44" width="0.1524" layer="91"/>
 <label x="513.08" y="91.44" size="1.778" layer="95"/>
@@ -24473,6 +24498,12 @@ TODO if i have space:
 <pinref part="S_B14" gate="G$1" pin="1"/>
 <wire x1="513.08" y1="86.36" x2="519.43" y2="86.36" width="0.1524" layer="91"/>
 <label x="513.08" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A1"/>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="172.72" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="172.72" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B15" class="0">
@@ -24487,12 +24518,6 @@ TODO if i have space:
 <label x="398.78" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A1"/>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="172.72" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
-<label x="172.72" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B15" gate="G$1" pin="3"/>
 <wire x1="530.86" y1="91.44" x2="537.21" y2="91.44" width="0.1524" layer="91"/>
 <label x="530.86" y="91.44" size="1.778" layer="95"/>
@@ -24501,6 +24526,12 @@ TODO if i have space:
 <pinref part="S_B15" gate="G$1" pin="1"/>
 <wire x1="530.86" y1="86.36" x2="537.21" y2="86.36" width="0.1524" layer="91"/>
 <label x="530.86" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A0"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="172.72" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="172.72" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B16" class="0">
@@ -24515,12 +24546,6 @@ TODO if i have space:
 <label x="398.78" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A0"/>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="172.72" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
-<label x="172.72" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B16" gate="G$1" pin="3"/>
 <wire x1="459.74" y1="73.66" x2="466.09" y2="73.66" width="0.1524" layer="91"/>
 <label x="459.74" y="73.66" size="1.778" layer="95"/>
@@ -24529,6 +24554,12 @@ TODO if i have space:
 <pinref part="S_B16" gate="G$1" pin="1"/>
 <wire x1="459.74" y1="68.58" x2="466.09" y2="68.58" width="0.1524" layer="91"/>
 <label x="459.74" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="172.72" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="M5" gate="G$1" pin="D13"/>
+<label x="172.72" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -24958,66 +24989,60 @@ TODO if i have space:
 <label x="187.96" y="156.21" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RXX" class="0">
+<net name="S_IN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P4"/>
-<wire x1="289.56" y1="209.55" x2="279.4" y2="209.55" width="0.1524" layer="91"/>
-<label x="279.4" y="209.55" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TXX" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P5"/>
-<wire x1="289.56" y1="207.01" x2="279.4" y2="207.01" width="0.1524" layer="91"/>
-<label x="279.4" y="207.01" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="LS_3" gate="G$1" pin="2"/>
+<pinref part="LS_S" gate="G$1" pin="2"/>
 <wire x1="458.47" y1="17.78" x2="464.82" y2="17.78" width="0.1524" layer="91"/>
+<label x="458.47" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="S_OUT" class="0">
 <segment>
-<pinref part="LS_3" gate="G$1" pin="3"/>
+<pinref part="LS_S" gate="G$1" pin="3"/>
 <wire x1="458.47" y1="15.24" x2="464.82" y2="15.24" width="0.1524" layer="91"/>
+<label x="458.47" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="N_IN" class="0">
 <segment>
-<pinref part="LS_1" gate="G$1" pin="2"/>
+<pinref part="LS_N" gate="G$1" pin="2"/>
 <wire x1="458.47" y1="41.91" x2="466.09" y2="41.91" width="0.1524" layer="91"/>
+<label x="458.47" y="41.91" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="N_OUT" class="0">
 <segment>
-<pinref part="LS_1" gate="G$1" pin="3"/>
+<pinref part="LS_N" gate="G$1" pin="3"/>
 <wire x1="458.47" y1="39.37" x2="466.09" y2="39.37" width="0.1524" layer="91"/>
+<label x="458.47" y="39.37" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="E_IN" class="0">
 <segment>
-<pinref part="LS_2" gate="G$1" pin="2"/>
+<pinref part="LS_E" gate="G$1" pin="2"/>
 <wire x1="478.79" y1="41.91" x2="486.41" y2="41.91" width="0.1524" layer="91"/>
+<label x="478.79" y="41.91" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="E_OUT" class="0">
 <segment>
-<pinref part="LS_2" gate="G$1" pin="3"/>
+<pinref part="LS_E" gate="G$1" pin="3"/>
 <wire x1="478.79" y1="39.37" x2="486.41" y2="39.37" width="0.1524" layer="91"/>
+<label x="478.79" y="39.37" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="W_IN" class="0">
 <segment>
-<pinref part="LS_4" gate="G$1" pin="2"/>
+<pinref part="LS_W" gate="G$1" pin="2"/>
 <wire x1="478.79" y1="17.78" x2="486.41" y2="17.78" width="0.1524" layer="91"/>
+<label x="478.79" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="W_OUT" class="0">
 <segment>
-<pinref part="LS_4" gate="G$1" pin="3"/>
+<pinref part="LS_W" gate="G$1" pin="3"/>
 <wire x1="478.79" y1="15.24" x2="486.41" y2="15.24" width="0.1524" layer="91"/>
+<label x="478.79" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -25312,6 +25337,11 @@ TODO if i have space:
 <junction x="231.14" y="210.82"/>
 <label x="223.52" y="210.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P5"/>
+<wire x1="289.56" y1="207.01" x2="279.4" y2="207.01" width="0.1524" layer="91"/>
+<label x="279.4" y="207.01" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -25323,17 +25353,24 @@ TODO if i have space:
 <junction x="236.22" y="208.28"/>
 <label x="223.52" y="208.28" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$39" class="0">
 <segment>
-<pinref part="BT_CON" gate="G$1" pin="4"/>
-<wire x1="504.19" y1="16.51" x2="508" y2="16.51" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P4"/>
+<wire x1="289.56" y1="209.55" x2="279.4" y2="209.55" width="0.1524" layer="91"/>
+<label x="279.4" y="209.55" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IFE" class="0">
+<net name="BT_RX" class="0">
+<segment>
+<pinref part="BT_CON" gate="G$1" pin="4"/>
+<wire x1="504.19" y1="16.51" x2="513.08" y2="16.51" width="0.1524" layer="91"/>
+<label x="503.682" y="16.764" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_TX" class="0">
 <segment>
 <pinref part="BT_CON" gate="G$1" pin="3"/>
-<wire x1="504.19" y1="19.05" x2="508" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="504.19" y1="19.05" x2="513.08" y2="19.05" width="0.1524" layer="91"/>
+<label x="503.682" y="19.304" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWB_2" class="0">
@@ -25671,21 +25708,13 @@ TODO if i have space:
 </net>
 <net name="SW1" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="172.72" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="M5" gate="G$1" pin="D13"/>
-<label x="172.72" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SW2" class="0">
-<segment>
 <pinref part="M5" gate="G$1" pin="D12"/>
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="172.72" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
 <label x="172.72" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW3" class="0">
+<net name="SW2" class="0">
 <segment>
 <pinref part="M5" gate="G$1" pin="D11"/>
 <pinref part="J1" gate="G$1" pin="13"/>
@@ -25693,11 +25722,12 @@ TODO if i have space:
 <label x="172.72" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$77" class="0">
+<net name="SW3" class="0">
 <segment>
 <pinref part="M5" gate="G$1" pin="D10"/>
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="172.72" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<label x="172.72" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$85" class="0">
@@ -25749,20 +25779,6 @@ TODO if i have space:
 <wire x1="172.72" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$86" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<pinref part="M5" gate="G$1" pin="GND.2"/>
-<wire x1="172.72" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$104" class="0">
-<segment>
-<pinref part="SV4" gate="G$1" pin="9"/>
-<pinref part="M5" gate="G$1" pin="GND.1"/>
-<wire x1="129.54" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="A" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="36/CS"/>
@@ -25793,6 +25809,29 @@ TODO if i have space:
 <pinref part="SV3" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="27.94" x2="95.25" y2="27.94" width="0.1524" layer="91"/>
 <label x="83.82" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$116" class="0">
+<segment>
+<pinref part="M5" gate="G$1" pin="A6"/>
+<pinref part="J2" gate="J$1" pin="2"/>
+<wire x1="162.56" y1="38.1" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A_TX" class="0">
+<segment>
+<pinref part="SV4" gate="G$1" pin="12"/>
+<pinref part="M5" gate="G$1" pin="D1/TX"/>
+<wire x1="129.54" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
+<label x="129.54" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A_RX" class="0">
+<segment>
+<pinref part="SV4" gate="G$1" pin="11"/>
+<pinref part="M5" gate="G$1" pin="D0/RX"/>
+<wire x1="129.54" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
+<label x="129.54" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
