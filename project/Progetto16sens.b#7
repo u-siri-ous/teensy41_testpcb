@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -3871,41 +3871,41 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="64.77" y="-26.67" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="64.135" y="-29.21" size="1.27" layer="27"/>
 </element>
-<element name="ROLL" library="CONNECTER" package="2.0_1X4" value="TWIG_2.0" x="-64.77" y="-41.91" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-59.833" y="-39.329" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0"/>
-<attribute name="NAME" x="-59.97" y="-41.11" size="0.8128" layer="34" font="vector" ratio="10" rot="MR0"/>
+<element name="ROLL" library="CONNECTER" package="2.0_1X4" value="TWIG_2.0" x="-59.69" y="-49.53" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-54.753" y="-46.949" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="-54.89" y="-48.73" size="0.8128" layer="34" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="KICK" library="CONNECTER" package="2.0_1X4" value="TWIG_2.0" x="-64.77" y="-50.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-59.833" y="-48.219" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0"/>
-<attribute name="NAME" x="-59.97" y="-50" size="0.8128" layer="34" font="vector" ratio="10" rot="MR0"/>
+<element name="KICK" library="CONNECTER" package="2.0_1X4" value="TWIG_2.0" x="-59.69" y="-58.42" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-54.753" y="-55.839" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="-54.89" y="-57.62" size="0.8128" layer="34" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="PWR2" library="Molex motori" package="43650-0200" value="43650-0201" x="-41.91" y="-50.8" smashed="yes" rot="R90">
-<attribute name="ALLIED_NUMBER" value="70090754" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/molex-incorporated-43650-0201/70090754/" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="MOLEX - 43650-0201 - PLUG &amp; SOCKET CONNECTOR, HEADER 2POS 3MM" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Molex" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="43650-0201" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="538-43650-0201" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-43650-0201" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-40.64" y="-58.42" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-24.13" y="-50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-41.91" y="-50.8" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="PWR2" library="Molex motori" package="43650-0200" value="43650-0201" x="-33.02" y="-60.706" smashed="yes" rot="MR270">
+<attribute name="ALLIED_NUMBER" value="70090754" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/molex-incorporated-43650-0201/70090754/" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="MOLEX - 43650-0201 - PLUG &amp; SOCKET CONNECTOR, HEADER 2POS 3MM" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="43650-0201" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="538-43650-0201" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-43650-0201" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-31.75" y="-65.278" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-15.24" y="-60.706" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="-33.02" y="-60.706" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="PWR1" library="Molex motori" package="43650-0200" value="43650-0201" x="-41.91" y="-39.37" smashed="yes" rot="R90">
-<attribute name="ALLIED_NUMBER" value="70090754" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/molex-incorporated-43650-0201/70090754/" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="MOLEX - 43650-0201 - PLUG &amp; SOCKET CONNECTOR, HEADER 2POS 3MM" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Molex" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="43650-0201" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="538-43650-0201" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-43650-0201" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-40.005" y="-34.925" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-24.13" y="-39.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-41.91" y="-39.37" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="PWR1" library="Molex motori" package="43650-0200" value="43650-0201" x="-33.02" y="-48.26" smashed="yes" rot="MR270">
+<attribute name="ALLIED_NUMBER" value="70090754" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/molex-incorporated-43650-0201/70090754/" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="MOLEX - 43650-0201 - PLUG &amp; SOCKET CONNECTOR, HEADER 2POS 3MM" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="43650-0201" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="538-43650-0201" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-43650-0201" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-31.623" y="-52.705" size="1.27" layer="26" rot="MR0" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-15.24" y="-48.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="-33.02" y="-48.26" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
 </elements>
 <signals>
@@ -4022,11 +4022,11 @@ design rules under a new name.</description>
 <contactref element="ROLL" pad="4"/>
 <contactref element="KICK" pad="4"/>
 <wire x1="-69.215" y1="-67.945" x2="-72.081590625" y2="-70.910071875" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.77" y1="-50.8" x2="-69.215" y2="-67.945" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.77" y1="-41.91" x2="-67.77" y2="-50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.17" y1="-20.828" x2="-67.77" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.69" y1="-58.42" x2="-69.215" y2="-67.945" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.69" y1="-49.53" x2="-62.69" y2="-58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.17" y1="-20.828" x2="-62.69" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.2" y1="-22.86" x2="-70.17" y2="-20.828" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.535" y1="-36.195" x2="-67.77" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.535" y1="-36.195" x2="-62.69" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-93.87440625" y1="-38.131175" x2="-89.535" y2="-36.195" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.47" y1="-78.642" x2="-69.215" y2="-67.945" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.719" y1="-88.773" x2="-48.47" y2="-78.642" width="0" layer="19" extent="1-1"/>
@@ -4227,9 +4227,9 @@ design rules under a new name.</description>
 <contactref element="L_SW3" pad="C"/>
 <contactref element="ROLL" pad="1"/>
 <contactref element="KICK" pad="1"/>
-<wire x1="-61.77" y1="-50.8" x2="-50.37" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.77" y1="-41.91" x2="-61.77" y2="-50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.81" y1="-8.89" x2="-61.77" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.69" y1="-58.42" x2="-50.37" y2="-76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.69" y1="-49.53" x2="-56.69" y2="-58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.81" y1="-8.89" x2="-56.69" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="1.59" y1="-5.842" x2="-3.81" y2="-8.89" width="0" layer="19" extent="1-1"/>
 <wire x1="3.49" y1="-3.556" x2="1.59" y2="-5.842" width="0" layer="19" extent="1-1"/>
 <wire x1="3.49" y1="-1.27" x2="3.49" y2="-3.556" width="0" layer="19" extent="1-1"/>
@@ -4572,32 +4572,32 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="PWR2" pad="2"/>
 <contactref element="PWR1" pad="2"/>
-<wire x1="-76.835" y1="6.522" x2="-80.01" y2="4.638" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.835" y1="1.098" x2="-80.01" y2="4.638" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.852" y1="8.08" x2="-80.01" y2="4.638" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.835" y1="13.798" x2="-76.835" y2="6.522" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.502" y1="15.682" x2="-76.835" y2="13.798" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.835" y1="19.222" x2="-79.502" y2="15.682" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.852" y1="19.51" x2="-79.502" y2="15.682" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.945" y1="1.098" x2="-76.835" y2="1.098" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.643" y1="1.098" x2="-67.945" y2="1.098" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.945" y1="6.522" x2="-67.945" y2="1.098" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.643" y1="6.522" x2="-67.945" y2="6.522" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.945" y1="13.798" x2="-67.945" y2="6.522" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.643" y1="13.798" x2="-67.945" y2="13.798" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.945" y1="19.222" x2="-67.945" y2="13.798" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.643" y1="19.222" x2="-67.945" y2="19.222" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.753" y1="1.098" x2="-64.643" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="-45.26" x2="-33.02" y2="-57.706" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.530353125" y1="-60.490925" x2="-33.02" y2="-57.706" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.753" y1="1.098" x2="-33.02" y2="-45.26" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.832" y1="4.638" x2="-55.753" y2="1.098" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.753" y1="6.522" x2="-52.832" y2="4.638" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.753" y1="13.798" x2="-55.753" y2="6.522" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.086" y1="15.682" x2="-55.753" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.753" y1="19.222" x2="-53.086" y2="15.682" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.99" y1="19.51" x2="-53.086" y2="15.682" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.643" y1="1.098" x2="-55.753" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.945" y1="1.098" x2="-64.643" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.945" y1="6.522" x2="-67.945" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.643" y1="6.522" x2="-67.945" y2="6.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.945" y1="13.798" x2="-67.945" y2="6.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.643" y1="13.798" x2="-67.945" y2="13.798" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.945" y1="19.222" x2="-67.945" y2="13.798" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.643" y1="19.222" x2="-67.945" y2="19.222" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.835" y1="1.098" x2="-67.945" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.01" y1="4.638" x2="-76.835" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.835" y1="6.522" x2="-80.01" y2="4.638" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.852" y1="8.08" x2="-80.01" y2="4.638" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.835" y1="13.798" x2="-76.835" y2="6.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.502" y1="15.682" x2="-76.835" y2="13.798" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.835" y1="19.222" x2="-79.502" y2="15.682" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.852" y1="19.51" x2="-79.502" y2="15.682" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.1" y1="19.51" x2="-46.99" y2="19.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.530353125" y1="-60.490925" x2="-55.753" y2="1.098" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.91" y1="-53.8" x2="-5.530353125" y2="-60.490925" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.91" y1="-42.37" x2="-41.91" y2="-53.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="IC1" pad="1"/>
@@ -5110,7 +5110,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="26/A12/MOSI1"/>
 <contactref element="SV2" pad="7"/>
 <contactref element="ROLL" pad="3"/>
-<wire x1="16.4" y1="26.26" x2="-65.77" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="16.4" y1="26.26" x2="-60.69" y2="-49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="K_DIG">
 <wire x1="19.05" y1="38.1" x2="19.05" y2="26.37" width="0.254" layer="1"/>
@@ -5118,7 +5118,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="27/A13/SCK1"/>
 <contactref element="SV2" pad="6"/>
 <contactref element="KICK" pad="3"/>
-<wire x1="18.94" y1="26.26" x2="-65.77" y2="-50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="18.94" y1="26.26" x2="-60.69" y2="-58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$79">
 <contactref element="SV6" pad="12"/>
@@ -5130,7 +5130,7 @@ design rules under a new name.</description>
 <wire x1="-16.51" y1="64.77" x2="-16.51" y2="53.34" width="0.254" layer="1"/>
 <contactref element="U$1" pad="22/A8"/>
 <contactref element="KICK" pad="2"/>
-<wire x1="-16.51" y1="53.34" x2="-63.77" y2="-50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="53.34" x2="-58.69" y2="-58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAM_TX">
 <contactref element="SV6" pad="7"/>
@@ -5342,7 +5342,7 @@ design rules under a new name.</description>
 <wire x1="-19.05" y1="64.77" x2="-19.05" y2="53.34" width="0.254" layer="1"/>
 <contactref element="U$1" pad="23/A9"/>
 <contactref element="ROLL" pad="2"/>
-<wire x1="-19.05" y1="53.34" x2="-63.77" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="53.34" x2="-58.69" y2="-49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUZZ">
 <contactref element="U$1" pad="12/MISO"/>
@@ -5446,16 +5446,18 @@ design rules under a new name.</description>
 <contactref element="C11" pad="+"/>
 <wire x1="-12.954" y1="-76.679" x2="-13.904" y2="-87.474" width="0" layer="19" extent="16-16"/>
 <wire x1="5.569646875" y1="-60.490925" x2="-12.954" y2="-76.679" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.1" y1="13.51" x2="5.569646875" y2="-60.490925" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.99" y1="13.51" x2="-38.1" y2="13.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.086" y1="13.782" x2="-46.99" y2="13.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="-60.706" x2="-12.954" y2="-76.679" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="-48.26" x2="-33.02" y2="-60.706" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.833" y1="1.098" x2="-33.02" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.833" y1="6.522" x2="-60.833" y2="1.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.563" y1="6.522" x2="-60.833" y2="6.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.832" y1="6.538" x2="-59.563" y2="6.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.086" y1="13.782" x2="-52.832" y2="6.538" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.99" y1="13.51" x2="-53.086" y2="13.782" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.563" y1="13.798" x2="-53.086" y2="13.782" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.833" y1="13.798" x2="-59.563" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.563" y1="19.222" x2="-59.563" y2="13.798" width="0" layer="19" extent="1-1"/>
-<wire x1="-52.832" y1="6.538" x2="-53.086" y2="13.782" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.563" y1="6.522" x2="-52.832" y2="6.538" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.833" y1="6.522" x2="-59.563" y2="6.522" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.833" y1="1.098" x2="-60.833" y2="6.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="13.51" x2="-46.99" y2="13.51" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.755" y1="6.522" x2="-60.833" y2="6.522" width="0" layer="19" extent="1-1"/>
 <wire x1="-73.025" y1="6.522" x2="-71.755" y2="6.522" width="0" layer="19" extent="1-1"/>
 <wire x1="-73.025" y1="1.098" x2="-73.025" y2="6.522" width="0" layer="19" extent="1-1"/>
@@ -5466,8 +5468,66 @@ design rules under a new name.</description>
 <wire x1="-71.755" y1="13.798" x2="-73.025" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.755" y1="19.222" x2="-71.755" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-85.852" y1="2.08" x2="-80.01" y2="6.538" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.91" y1="-50.8" x2="-13.904" y2="-87.474" width="0" layer="19" extent="16-16"/>
-<wire x1="-41.91" y1="-39.37" x2="-41.91" y2="-50.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<via x="-8.255" y="-53.975" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$37">
+<via x="-6.985" y="-53.975" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$38">
+<via x="-5.715" y="-53.975" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$39">
+<via x="-4.445" y="-53.975" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$40">
+<via x="-3.175" y="-53.975" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$41">
+<via x="-8.255" y="-55.245" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$42">
+<via x="-6.985" y="-55.245" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$43">
+<via x="-5.715" y="-55.245" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$44">
+<via x="-4.445" y="-55.245" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$45">
+<via x="-3.175" y="-55.245" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$46">
+<via x="-8.255" y="-56.515" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$47">
+<via x="-6.985" y="-56.515" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$48">
+<via x="-5.715" y="-56.515" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$49">
+<via x="-4.445" y="-56.515" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$50">
+<via x="-3.175" y="-56.515" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$51">
+<via x="-8.255" y="-57.785" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$52">
+<via x="-6.985" y="-57.785" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$53">
+<via x="-5.715" y="-57.785" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$54">
+<via x="-4.445" y="-57.785" extent="1-16" drill="0.35" diameter="0.55"/>
+</signal>
+<signal name="N$55">
+<via x="-3.175" y="-57.785" extent="1-16" drill="0.35" diameter="0.55"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
