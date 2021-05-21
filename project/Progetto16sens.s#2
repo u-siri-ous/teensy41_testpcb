@@ -23904,7 +23904,7 @@ Footprint without programming pads</description>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
+<net name="PWR_B1" class="0">
 <segment>
 <pinref part="S4" gate="G$1" pin="VCC"/>
 <pinref part="S2" gate="G$1" pin="VCC"/>
@@ -24644,7 +24644,7 @@ Footprint without programming pads</description>
 <wire x1="520.7" y1="151.13" x2="520.7" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="PWR_B2" class="0">
 <segment>
 <pinref part="S8" gate="G$1" pin="VCC"/>
 <pinref part="S6" gate="G$1" pin="VCC"/>
@@ -24666,7 +24666,7 @@ Footprint without programming pads</description>
 <junction x="406.4" y="20.32"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="PWR_B3" class="0">
 <segment>
 <pinref part="S12" gate="G$1" pin="VCC"/>
 <pinref part="S10" gate="G$1" pin="VCC"/>
@@ -24688,7 +24688,7 @@ Footprint without programming pads</description>
 <junction x="327.66" y="96.52"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PWR_B4" class="0">
 <segment>
 <pinref part="S16" gate="G$1" pin="VCC"/>
 <pinref part="S14" gate="G$1" pin="VCC"/>

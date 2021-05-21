@@ -4918,7 +4918,6 @@ design rules under a new name.</description>
 <vertex x="-69.088" y="-1.778"/>
 <vertex x="-67.056" y="0.254"/>
 <vertex x="-66.548" y="7.366"/>
-<vertex x="-66.548" y="7.366"/>
 <vertex x="-66.294" y="7.366"/>
 <vertex x="-66.294" y="-1.778"/>
 <vertex x="-67.564" y="-3.048"/>
@@ -5219,6 +5218,12 @@ design rules under a new name.</description>
 <vertex x="-73.406" y="21.971"/>
 <vertex x="-73.406" y="12.954"/>
 </polygon>
+<via x="-72.898" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-72.136" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-71.374" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-72.898" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-72.136" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-72.898" y="20.447" extent="1-16" drill="0.2" diameter="0.0508"/>
 </signal>
 <signal name="M1_OUTB">
 <contactref element="DRV1" pad="7"/>
@@ -5244,6 +5249,12 @@ design rules under a new name.</description>
 <vertex x="-69.088" y="22.098"/>
 <vertex x="-67.056" y="20.066"/>
 </polygon>
+<via x="-68.326" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-67.564" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-66.802" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-66.802" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-67.564" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
+<via x="-66.802" y="20.447" extent="1-16" drill="0.2" diameter="0.0508"/>
 </signal>
 <signal name="SDA">
 <contactref element="U$3" pad="SDA"/>
@@ -5667,42 +5678,6 @@ design rules under a new name.</description>
 <vertex x="2.794" y="-65.786"/>
 </polygon>
 <wire x1="-12.954" y1="-76.679" x2="-13.904" y2="-87.474" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$73">
-<via x="-66.675" y="20.447" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$74">
-<via x="-66.675" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$75">
-<via x="-66.675" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$76">
-<via x="-67.437" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$77">
-<via x="-68.199" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$78">
-<via x="-67.437" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$80">
-<via x="-73.025" y="20.447" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$82">
-<via x="-73.025" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$83">
-<via x="-73.025" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$84">
-<via x="-72.263" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$86">
-<via x="-71.501" y="21.971" extent="1-16" drill="0.2" diameter="0.0508"/>
-</signal>
-<signal name="N$87">
-<via x="-72.263" y="21.209" extent="1-16" drill="0.2" diameter="0.0508"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
