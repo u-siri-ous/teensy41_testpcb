@@ -4854,6 +4854,24 @@ design rules under a new name.</description>
 <contactref element="M2" pad="1"/>
 <contactref element="DRV2" pad="7"/>
 <contactref element="DRV2" pad="10"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="-54.864" y="12.954"/>
+<vertex x="-54.102" y="12.954"/>
+<vertex x="-54.102" y="21.971"/>
+<vertex x="-55.372" y="23.241"/>
+<vertex x="-56.896" y="23.241"/>
+<vertex x="-56.896" y="22.098"/>
+<vertex x="-54.864" y="20.066"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="-54.864" y="12.954"/>
+<vertex x="-54.102" y="12.954"/>
+<vertex x="-54.102" y="21.971"/>
+<vertex x="-55.372" y="23.241"/>
+<vertex x="-56.896" y="23.241"/>
+<vertex x="-56.896" y="22.098"/>
+<vertex x="-54.864" y="20.066"/>
+</polygon>
 <wire x1="-54.483" y1="19.222" x2="-54.483" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.134" y1="23.114" x2="-54.483" y2="19.222" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4893,6 +4911,25 @@ design rules under a new name.</description>
 <contactref element="M2" pad="2"/>
 <contactref element="DRV2" pad="2"/>
 <contactref element="DRV2" pad="15"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="-61.214" y="12.954"/>
+<vertex x="-60.452" y="12.954"/>
+<vertex x="-60.452" y="20.066"/>
+<vertex x="-58.42" y="22.098"/>
+<vertex x="-58.42" y="23.241"/>
+<vertex x="-59.944" y="23.241"/>
+<vertex x="-61.214" y="21.971"/>
+<vertex x="-61.214" y="13.081"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="-61.214" y="12.954"/>
+<vertex x="-60.452" y="12.954"/>
+<vertex x="-60.452" y="20.066"/>
+<vertex x="-58.42" y="22.098"/>
+<vertex x="-58.42" y="23.241"/>
+<vertex x="-59.944" y="23.241"/>
+<vertex x="-61.214" y="21.971"/>
+</polygon>
 <wire x1="-60.833" y1="19.222" x2="-60.833" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.134" y1="23.114" x2="-60.833" y2="19.222" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -5190,13 +5227,24 @@ design rules under a new name.</description>
 <contactref element="DRV1" pad="15"/>
 <contactref element="M1" pad="2"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="-73.406" y="18.415"/>
-<vertex x="-72.644" y="18.415"/>
+<vertex x="-73.406" y="12.954"/>
+<vertex x="-72.644" y="12.954"/>
 <vertex x="-72.644" y="20.066"/>
 <vertex x="-70.612" y="22.098"/>
 <vertex x="-70.612" y="23.241"/>
 <vertex x="-72.136" y="23.241"/>
 <vertex x="-73.406" y="21.971"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="-73.279" y="12.954"/>
+<vertex x="-72.644" y="12.954"/>
+<vertex x="-72.644" y="20.066"/>
+<vertex x="-70.612" y="22.098"/>
+<vertex x="-70.612" y="23.114"/>
+<vertex x="-70.612" y="23.241"/>
+<vertex x="-72.136" y="23.241"/>
+<vertex x="-73.406" y="21.971"/>
+<vertex x="-73.406" y="12.954"/>
 </polygon>
 <wire x1="-73.025" y1="19.222" x2="-73.025" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.326" y1="23.114" x2="-73.025" y2="19.222" width="0" layer="19" extent="1-1"/>
@@ -5205,6 +5253,26 @@ design rules under a new name.</description>
 <contactref element="DRV1" pad="7"/>
 <contactref element="DRV1" pad="10"/>
 <contactref element="M1" pad="1"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="-66.929" y="12.954"/>
+<vertex x="-66.421" y="12.954"/>
+<vertex x="-66.294" y="12.954"/>
+<vertex x="-66.294" y="21.971"/>
+<vertex x="-67.564" y="23.241"/>
+<vertex x="-69.088" y="23.241"/>
+<vertex x="-69.088" y="22.098"/>
+<vertex x="-67.056" y="20.066"/>
+<vertex x="-67.056" y="12.954"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="-67.056" y="12.954"/>
+<vertex x="-66.294" y="12.954"/>
+<vertex x="-66.294" y="21.971"/>
+<vertex x="-67.564" y="23.241"/>
+<vertex x="-69.088" y="23.241"/>
+<vertex x="-69.088" y="22.098"/>
+<vertex x="-67.056" y="20.066"/>
+</polygon>
 <wire x1="-66.675" y1="19.222" x2="-66.675" y2="13.798" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.326" y1="23.114" x2="-66.675" y2="19.222" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -5557,8 +5625,7 @@ design rules under a new name.</description>
 <vertex x="-45.212" y="13.462"/>
 <vertex x="-49.784" y="13.462"/>
 <vertex x="-49.784" y="14.478"/>
-<vertex x="-51.308" y="14.478"/>
-<vertex x="-51.308" y="14.224"/>
+<vertex x="-51.054" y="14.478"/>
 <vertex x="-53.086" y="12.446"/>
 <vertex x="-56.642" y="12.446"/>
 <vertex x="-56.642" y="20.066"/>
