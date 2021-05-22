@@ -23098,6 +23098,7 @@ Footprint without programming pads</description>
 <wire x1="474.98" y1="134.62" x2="474.98" y2="158.75" width="0.1524" layer="97"/>
 <text x="474.98" y="161.29" size="1.778" layer="97">ROLLER</text>
 <text x="474.98" y="132.08" size="1.778" layer="97">KICKER</text>
+<text x="0" y="236.22" size="1.778" layer="97">*in motors the value is VMOT</text>
 </plain>
 <instances>
 <instance part="SV1" gate="G$1" x="7.62" y="72.39" smashed="yes">
@@ -25224,120 +25225,11 @@ Footprint without programming pads</description>
 <junction x="218.44" y="30.48"/>
 </segment>
 <segment>
-<pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="DRV1" gate="G$1" pin="VCC_2"/>
-<wire x1="33.02" y1="231.14" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="210.82" x2="33.02" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="208.28" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="DRV1" gate="G$1" pin="VCC_1"/>
-<wire x1="35.56" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
-<junction x="33.02" y="210.82"/>
-</segment>
-<segment>
-<pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="73.66" y1="231.14" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="DRV1" gate="G$1" pin="VCC_3"/>
-<wire x1="73.66" y1="220.98" x2="73.66" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="208.28" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="215.9" x2="101.6" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="220.98" x2="95.25" y2="220.98" width="0.1524" layer="91"/>
-<junction x="73.66" y="220.98"/>
-<pinref part="C11" gate="G$1" pin="+"/>
-<wire x1="95.25" y1="220.98" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="215.9" x2="95.25" y2="220.98" width="0.1524" layer="91"/>
-<junction x="95.25" y="220.98"/>
-</segment>
-<segment>
-<pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="DRV3" gate="G$1" pin="VCC_2"/>
-<wire x1="33.02" y1="171.45" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="151.13" x2="33.02" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="148.59" x2="35.56" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="DRV3" gate="G$1" pin="VCC_1"/>
-<wire x1="35.56" y1="151.13" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
-<junction x="33.02" y="151.13"/>
-</segment>
-<segment>
-<pinref part="P+5" gate="1" pin="+12V"/>
-<wire x1="73.66" y1="171.45" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="DRV3" gate="G$1" pin="VCC_3"/>
-<wire x1="73.66" y1="161.29" x2="73.66" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="148.59" x2="71.12" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="156.21" x2="101.6" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="161.29" x2="95.25" y2="161.29" width="0.1524" layer="91"/>
-<junction x="73.66" y="161.29"/>
-<pinref part="C13" gate="G$1" pin="+"/>
-<wire x1="95.25" y1="161.29" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="156.21" x2="95.25" y2="161.29" width="0.1524" layer="91"/>
-<junction x="95.25" y="161.29"/>
-</segment>
-<segment>
-<pinref part="P+6" gate="1" pin="+12V"/>
-<pinref part="DRV2" gate="G$1" pin="VCC_2"/>
-<wire x1="142.24" y1="231.14" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="210.82" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="DRV2" gate="G$1" pin="VCC_1"/>
-<wire x1="144.78" y1="210.82" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
-<junction x="142.24" y="210.82"/>
-</segment>
-<segment>
-<pinref part="P+7" gate="1" pin="+12V"/>
-<wire x1="182.88" y1="231.14" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="DRV2" gate="G$1" pin="VCC_3"/>
-<wire x1="182.88" y1="220.98" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="208.28" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="215.9" x2="210.82" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="220.98" x2="204.47" y2="220.98" width="0.1524" layer="91"/>
-<junction x="182.88" y="220.98"/>
-<pinref part="C15" gate="G$1" pin="+"/>
-<wire x1="204.47" y1="220.98" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="215.9" x2="204.47" y2="220.98" width="0.1524" layer="91"/>
-<junction x="204.47" y="220.98"/>
-</segment>
-<segment>
-<pinref part="P+8" gate="1" pin="+12V"/>
-<pinref part="DRV4" gate="G$1" pin="VCC_2"/>
-<wire x1="142.24" y1="171.45" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="151.13" x2="142.24" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="148.59" x2="144.78" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="DRV4" gate="G$1" pin="VCC_1"/>
-<wire x1="144.78" y1="151.13" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
-<junction x="142.24" y="151.13"/>
-</segment>
-<segment>
-<pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="182.88" y1="171.45" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="DRV4" gate="G$1" pin="VCC_3"/>
-<wire x1="182.88" y1="161.29" x2="182.88" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="148.59" x2="180.34" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="156.21" x2="210.82" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="161.29" x2="204.47" y2="161.29" width="0.1524" layer="91"/>
-<junction x="182.88" y="161.29"/>
-<pinref part="C17" gate="G$1" pin="+"/>
-<wire x1="204.47" y1="161.29" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="156.21" x2="204.47" y2="161.29" width="0.1524" layer="91"/>
-<junction x="204.47" y="161.29"/>
-</segment>
-<segment>
-<pinref part="SW_MOT" gate="1" pin="P"/>
-<wire x1="261.62" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R_MOT" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="104.14" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
-<junction x="264.16" y="101.6"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="271.78" y1="104.14" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
-<junction x="271.78" y="101.6"/>
 <pinref part="SW_ELETT" gate="1" pin="P"/>
-<wire x1="261.62" y1="124.46" x2="277.876" y2="124.46" width="0.1524" layer="91"/>
-<label x="277.876" y="124.46" size="1.778" layer="95" xref="yes"/>
-<wire x1="271.78" y1="101.6" x2="277.876" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="277.876" y1="101.6" x2="277.876" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="124.46" x2="276.86" y2="124.46" width="0.1524" layer="91"/>
+<label x="274.32" y="124.46" size="1.778" layer="95"/>
+<wire x1="276.86" y1="124.46" x2="277.876" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="124.46" x2="277.876" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -26430,6 +26322,119 @@ Footprint without programming pads</description>
 <wire x1="477.52" y1="152.4" x2="477.52" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="PWR1" gate="G$1" pin="1"/>
 <wire x1="477.52" y1="147.32" x2="480.06" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW_MOT" gate="1" pin="P"/>
+<wire x1="261.62" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R_MOT" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="104.14" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<junction x="264.16" y="101.6"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="271.78" y1="104.14" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
+<label x="274.32" y="101.6" size="1.778" layer="95"/>
+<wire x1="281.94" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
+<junction x="271.78" y="101.6"/>
+</segment>
+<segment>
+<pinref part="P+9" gate="1" pin="+12V"/>
+<wire x1="182.88" y1="171.45" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_3"/>
+<wire x1="182.88" y1="161.29" x2="182.88" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="148.59" x2="180.34" y2="148.59" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="156.21" x2="210.82" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="161.29" x2="204.47" y2="161.29" width="0.1524" layer="91"/>
+<junction x="182.88" y="161.29"/>
+<pinref part="C17" gate="G$1" pin="+"/>
+<wire x1="204.47" y1="161.29" x2="182.88" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="156.21" x2="204.47" y2="161.29" width="0.1524" layer="91"/>
+<junction x="204.47" y="161.29"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="73.66" y1="171.45" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_3"/>
+<wire x1="73.66" y1="161.29" x2="73.66" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="148.59" x2="71.12" y2="148.59" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="156.21" x2="101.6" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="161.29" x2="95.25" y2="161.29" width="0.1524" layer="91"/>
+<junction x="73.66" y="161.29"/>
+<pinref part="C13" gate="G$1" pin="+"/>
+<wire x1="95.25" y1="161.29" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="156.21" x2="95.25" y2="161.29" width="0.1524" layer="91"/>
+<junction x="95.25" y="161.29"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="1" pin="+12V"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_2"/>
+<wire x1="142.24" y1="231.14" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="210.82" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="208.28" x2="144.78" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_1"/>
+<wire x1="144.78" y1="210.82" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
+<junction x="142.24" y="210.82"/>
+</segment>
+<segment>
+<pinref part="P+7" gate="1" pin="+12V"/>
+<wire x1="182.88" y1="231.14" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="DRV2" gate="G$1" pin="VCC_3"/>
+<wire x1="182.88" y1="220.98" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="208.28" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="215.9" x2="210.82" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="220.98" x2="204.47" y2="220.98" width="0.1524" layer="91"/>
+<junction x="182.88" y="220.98"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<wire x1="204.47" y1="220.98" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="215.9" x2="204.47" y2="220.98" width="0.1524" layer="91"/>
+<junction x="204.47" y="220.98"/>
+</segment>
+<segment>
+<pinref part="P+8" gate="1" pin="+12V"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_2"/>
+<wire x1="142.24" y1="171.45" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="151.13" x2="142.24" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="148.59" x2="144.78" y2="148.59" width="0.1524" layer="91"/>
+<pinref part="DRV4" gate="G$1" pin="VCC_1"/>
+<wire x1="144.78" y1="151.13" x2="142.24" y2="151.13" width="0.1524" layer="91"/>
+<junction x="142.24" y="151.13"/>
+</segment>
+<segment>
+<pinref part="P+4" gate="1" pin="+12V"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_2"/>
+<wire x1="33.02" y1="171.45" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="151.13" x2="33.02" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="148.59" x2="35.56" y2="148.59" width="0.1524" layer="91"/>
+<pinref part="DRV3" gate="G$1" pin="VCC_1"/>
+<wire x1="35.56" y1="151.13" x2="33.02" y2="151.13" width="0.1524" layer="91"/>
+<junction x="33.02" y="151.13"/>
+</segment>
+<segment>
+<pinref part="P+2" gate="1" pin="+12V"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_2"/>
+<wire x1="33.02" y1="231.14" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="210.82" x2="33.02" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="208.28" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_1"/>
+<wire x1="35.56" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
+<junction x="33.02" y="210.82"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+12V"/>
+<wire x1="73.66" y1="231.14" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="DRV1" gate="G$1" pin="VCC_3"/>
+<wire x1="73.66" y1="220.98" x2="73.66" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="208.28" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="215.9" x2="101.6" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="220.98" x2="95.25" y2="220.98" width="0.1524" layer="91"/>
+<junction x="73.66" y="220.98"/>
+<pinref part="C11" gate="G$1" pin="+"/>
+<wire x1="95.25" y1="220.98" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="215.9" x2="95.25" y2="220.98" width="0.1524" layer="91"/>
+<junction x="95.25" y="220.98"/>
 </segment>
 </net>
 </nets>
