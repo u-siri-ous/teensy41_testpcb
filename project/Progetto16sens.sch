@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -23932,11 +23932,6 @@ Footprint without programming pads</description>
 </net>
 <net name="B1" class="0">
 <segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I0"/>
-<wire x1="346.71" y1="205.74" x2="336.55" y2="205.74" width="0.1524" layer="91"/>
-<label x="336.55" y="205.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B1" gate="G$1" pin="3"/>
 <wire x1="459.74" y1="123.19" x2="466.09" y2="123.19" width="0.1524" layer="91"/>
 <label x="459.74" y="123.19" size="1.778" layer="95"/>
@@ -23947,15 +23942,20 @@ Footprint without programming pads</description>
 <label x="459.74" y="118.11" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A5"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
-<label x="172.72" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S1" gate="G$1" pin="OUT"/>
 <wire x1="314.96" y1="30.48" x2="322.58" y2="30.48" width="0.1524" layer="91"/>
 <label x="317.5" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A7"/>
+<pinref part="J2" gate="J$1" pin="3"/>
+<wire x1="165.1" y1="38.1" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+<label x="165.1" y="35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I7"/>
+<wire x1="346.71" y1="223.52" x2="336.55" y2="223.52" width="0.1524" layer="91"/>
+<label x="336.55" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2" class="0">
@@ -23963,11 +23963,6 @@ Footprint without programming pads</description>
 <pinref part="S2" gate="G$1" pin="OUT"/>
 <wire x1="340.36" y1="30.48" x2="332.74" y2="30.48" width="0.1524" layer="91"/>
 <label x="335.28" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I1"/>
-<wire x1="346.71" y1="208.28" x2="336.55" y2="208.28" width="0.1524" layer="91"/>
-<label x="336.55" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B2" gate="G$1" pin="3"/>
@@ -23980,24 +23975,18 @@ Footprint without programming pads</description>
 <label x="477.52" y="118.11" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A4"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="83.82" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
-<label x="172.72" y="83.82" size="1.778" layer="95"/>
+<pinref part="M5" gate="G$1" pin="A6"/>
+<pinref part="J2" gate="J$1" pin="2"/>
+<wire x1="162.56" y1="38.1" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
+<label x="162.56" y="35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I6"/>
+<wire x1="346.71" y1="220.98" x2="336.55" y2="220.98" width="0.1524" layer="91"/>
+<label x="336.55" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B3" class="0">
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I2"/>
-<wire x1="346.71" y1="210.82" x2="336.55" y2="210.82" width="0.1524" layer="91"/>
-<label x="336.55" y="210.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="M5" gate="G$1" pin="D2"/>
-<pinref part="SV4" gate="G$1" pin="8"/>
-<wire x1="137.16" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<label x="129.54" y="71.12" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S_B3" gate="G$1" pin="3"/>
 <wire x1="495.3" y1="123.19" x2="501.65" y2="123.19" width="0.1524" layer="91"/>
@@ -24013,23 +24002,23 @@ Footprint without programming pads</description>
 <wire x1="314.96" y1="10.16" x2="322.58" y2="10.16" width="0.1524" layer="91"/>
 <label x="317.5" y="10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<pinref part="M5" gate="G$1" pin="D9"/>
+<wire x1="129.54" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="129.54" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I5"/>
+<wire x1="346.71" y1="218.44" x2="336.55" y2="218.44" width="0.1524" layer="91"/>
+<label x="336.55" y="218.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B4" class="0">
 <segment>
 <pinref part="S4" gate="G$1" pin="OUT"/>
 <wire x1="340.36" y1="10.16" x2="332.74" y2="10.16" width="0.1524" layer="91"/>
 <label x="335.28" y="10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I3"/>
-<wire x1="346.71" y1="213.36" x2="336.55" y2="213.36" width="0.1524" layer="91"/>
-<label x="336.55" y="213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="7"/>
-<pinref part="M5" gate="G$1" pin="D3"/>
-<wire x1="129.54" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<label x="129.54" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B4" gate="G$1" pin="3"/>
@@ -24040,6 +24029,17 @@ Footprint without programming pads</description>
 <pinref part="S_B4" gate="G$1" pin="1"/>
 <wire x1="513.08" y1="118.11" x2="519.43" y2="118.11" width="0.1524" layer="91"/>
 <label x="513.08" y="118.11" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="2"/>
+<pinref part="M5" gate="G$1" pin="D8"/>
+<wire x1="129.54" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="129.54" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I4"/>
+<wire x1="346.71" y1="215.9" x2="336.55" y2="215.9" width="0.1524" layer="91"/>
+<label x="336.55" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -24736,17 +24736,6 @@ Footprint without programming pads</description>
 </net>
 <net name="B7" class="0">
 <segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I6"/>
-<wire x1="346.71" y1="220.98" x2="336.55" y2="220.98" width="0.1524" layer="91"/>
-<label x="336.55" y="220.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="4"/>
-<pinref part="M5" gate="G$1" pin="D6"/>
-<wire x1="129.54" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="129.54" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S_B7" gate="G$1" pin="3"/>
 <wire x1="477.52" y1="105.41" x2="483.87" y2="105.41" width="0.1524" layer="91"/>
 <label x="477.52" y="105.41" size="1.778" layer="95"/>
@@ -24761,19 +24750,19 @@ Footprint without programming pads</description>
 <wire x1="393.7" y1="10.16" x2="401.32" y2="10.16" width="0.1524" layer="91"/>
 <label x="396.24" y="10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="5"/>
+<pinref part="M5" gate="G$1" pin="D5"/>
+<wire x1="129.54" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
+<label x="129.54" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I1"/>
+<wire x1="346.71" y1="208.28" x2="336.55" y2="208.28" width="0.1524" layer="91"/>
+<label x="336.55" y="208.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B5" class="0">
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I4"/>
-<wire x1="346.71" y1="215.9" x2="336.55" y2="215.9" width="0.1524" layer="91"/>
-<label x="336.55" y="215.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="6"/>
-<pinref part="M5" gate="G$1" pin="D4"/>
-<wire x1="129.54" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<label x="129.54" y="66.04" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S_B5" gate="G$1" pin="3"/>
 <wire x1="530.86" y1="123.19" x2="537.21" y2="123.19" width="0.1524" layer="91"/>
@@ -24789,23 +24778,23 @@ Footprint without programming pads</description>
 <wire x1="393.7" y1="30.48" x2="401.32" y2="30.48" width="0.1524" layer="91"/>
 <label x="396.24" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="3"/>
+<pinref part="M5" gate="G$1" pin="D7"/>
+<wire x1="129.54" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
+<label x="129.54" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I3"/>
+<wire x1="346.71" y1="213.36" x2="336.55" y2="213.36" width="0.1524" layer="91"/>
+<label x="336.55" y="213.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B8" class="0">
 <segment>
 <pinref part="S8" gate="G$1" pin="OUT"/>
 <wire x1="419.1" y1="10.16" x2="411.48" y2="10.16" width="0.1524" layer="91"/>
 <label x="414.02" y="10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I7"/>
-<wire x1="346.71" y1="223.52" x2="336.55" y2="223.52" width="0.1524" layer="91"/>
-<label x="336.55" y="223.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="3"/>
-<pinref part="M5" gate="G$1" pin="D7"/>
-<wire x1="129.54" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
-<label x="129.54" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B8" gate="G$1" pin="3"/>
@@ -24817,23 +24806,23 @@ Footprint without programming pads</description>
 <wire x1="495.3" y1="100.33" x2="501.65" y2="100.33" width="0.1524" layer="91"/>
 <label x="495.3" y="100.33" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="6"/>
+<pinref part="M5" gate="G$1" pin="D4"/>
+<wire x1="129.54" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
+<label x="129.54" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I0"/>
+<wire x1="346.71" y1="205.74" x2="336.55" y2="205.74" width="0.1524" layer="91"/>
+<label x="336.55" y="205.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B6" class="0">
 <segment>
 <pinref part="S6" gate="G$1" pin="OUT"/>
 <wire x1="419.1" y1="30.48" x2="411.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="414.02" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I5"/>
-<wire x1="346.71" y1="218.44" x2="336.55" y2="218.44" width="0.1524" layer="91"/>
-<label x="336.55" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="5"/>
-<pinref part="M5" gate="G$1" pin="D5"/>
-<wire x1="129.54" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
-<label x="129.54" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B6" gate="G$1" pin="3"/>
@@ -24845,19 +24834,19 @@ Footprint without programming pads</description>
 <wire x1="459.74" y1="100.33" x2="466.09" y2="100.33" width="0.1524" layer="91"/>
 <label x="459.74" y="100.33" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="4"/>
+<pinref part="M5" gate="G$1" pin="D6"/>
+<wire x1="129.54" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<label x="129.54" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I2"/>
+<wire x1="346.71" y1="210.82" x2="336.55" y2="210.82" width="0.1524" layer="91"/>
+<label x="336.55" y="210.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B9" class="0">
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I8"/>
-<wire x1="392.43" y1="223.52" x2="402.59" y2="223.52" width="0.1524" layer="91"/>
-<label x="400.05" y="223.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="2"/>
-<pinref part="M5" gate="G$1" pin="D8"/>
-<wire x1="129.54" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
-<label x="129.54" y="55.88" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S_B9" gate="G$1" pin="3"/>
 <wire x1="513.08" y1="105.41" x2="519.43" y2="105.41" width="0.1524" layer="91"/>
@@ -24873,23 +24862,23 @@ Footprint without programming pads</description>
 <wire x1="314.96" y1="106.68" x2="322.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="317.5" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="7"/>
+<pinref part="M5" gate="G$1" pin="D3"/>
+<wire x1="129.54" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
+<label x="129.54" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I15"/>
+<wire x1="392.43" y1="205.74" x2="402.59" y2="205.74" width="0.1524" layer="91"/>
+<label x="398.78" y="205.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B10" class="0">
 <segment>
 <pinref part="S10" gate="G$1" pin="OUT"/>
 <wire x1="340.36" y1="106.68" x2="332.74" y2="106.68" width="0.1524" layer="91"/>
 <label x="335.28" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I9"/>
-<wire x1="392.43" y1="220.98" x2="402.59" y2="220.98" width="0.1524" layer="91"/>
-<label x="398.78" y="220.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="1"/>
-<pinref part="M5" gate="G$1" pin="D9"/>
-<wire x1="129.54" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
-<label x="129.54" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B10" gate="G$1" pin="3"/>
@@ -24901,17 +24890,23 @@ Footprint without programming pads</description>
 <wire x1="530.86" y1="100.33" x2="537.21" y2="100.33" width="0.1524" layer="91"/>
 <label x="530.86" y="100.33" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="D2"/>
+<pinref part="SV4" gate="G$1" pin="8"/>
+<wire x1="137.16" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<label x="129.54" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I14"/>
+<wire x1="392.43" y1="208.28" x2="402.59" y2="208.28" width="0.1524" layer="91"/>
+<label x="398.78" y="208.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B12" class="0">
 <segment>
 <pinref part="S12" gate="G$1" pin="OUT"/>
 <wire x1="340.36" y1="86.36" x2="332.74" y2="86.36" width="0.1524" layer="91"/>
 <label x="335.28" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I11"/>
-<wire x1="392.43" y1="215.9" x2="402.59" y2="215.9" width="0.1524" layer="91"/>
-<label x="398.78" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B12" gate="G$1" pin="3"/>
@@ -24924,18 +24919,18 @@ Footprint without programming pads</description>
 <label x="477.52" y="82.55" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A3"/>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="172.72" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
-<label x="172.72" y="71.12" size="1.778" layer="95"/>
+<pinref part="M5" gate="G$1" pin="A1"/>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="172.72" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="172.72" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I12"/>
+<wire x1="392.43" y1="213.36" x2="402.59" y2="213.36" width="0.1524" layer="91"/>
+<label x="398.78" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B11" class="0">
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I10"/>
-<wire x1="392.43" y1="218.44" x2="402.59" y2="218.44" width="0.1524" layer="91"/>
-<label x="398.78" y="218.44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S_B11" gate="G$1" pin="3"/>
 <wire x1="459.74" y1="87.63" x2="466.09" y2="87.63" width="0.1524" layer="91"/>
@@ -24951,13 +24946,19 @@ Footprint without programming pads</description>
 <wire x1="314.96" y1="86.36" x2="322.58" y2="86.36" width="0.1524" layer="91"/>
 <label x="317.5" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A0"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="172.72" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="172.72" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I13"/>
+<wire x1="392.43" y1="210.82" x2="402.59" y2="210.82" width="0.1524" layer="91"/>
+<label x="398.78" y="210.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B13" class="0">
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I12"/>
-<wire x1="392.43" y1="213.36" x2="402.59" y2="213.36" width="0.1524" layer="91"/>
-<label x="398.78" y="213.36" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S_B13" gate="G$1" pin="3"/>
 <wire x1="495.3" y1="87.63" x2="501.65" y2="87.63" width="0.1524" layer="91"/>
@@ -24969,15 +24970,20 @@ Footprint without programming pads</description>
 <label x="495.3" y="82.55" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="S13" gate="G$1" pin="OUT"/>
+<wire x1="393.7" y1="106.68" x2="401.32" y2="106.68" width="0.1524" layer="91"/>
+<label x="396.24" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="M5" gate="G$1" pin="A2"/>
 <pinref part="J1" gate="G$1" pin="8"/>
 <wire x1="172.72" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="172.72" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S13" gate="G$1" pin="OUT"/>
-<wire x1="393.7" y1="106.68" x2="401.32" y2="106.68" width="0.1524" layer="91"/>
-<label x="396.24" y="106.68" size="1.778" layer="95"/>
+<pinref part="BALL_MUX" gate="G$1" pin="I11"/>
+<wire x1="392.43" y1="215.9" x2="402.59" y2="215.9" width="0.1524" layer="91"/>
+<label x="398.78" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B14" class="0">
@@ -24985,11 +24991,6 @@ Footprint without programming pads</description>
 <pinref part="S14" gate="G$1" pin="OUT"/>
 <wire x1="419.1" y1="106.68" x2="411.48" y2="106.68" width="0.1524" layer="91"/>
 <label x="414.02" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I13"/>
-<wire x1="392.43" y1="210.82" x2="402.59" y2="210.82" width="0.1524" layer="91"/>
-<label x="398.78" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B14" gate="G$1" pin="3"/>
@@ -25002,18 +25003,18 @@ Footprint without programming pads</description>
 <label x="513.08" y="82.55" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A1"/>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="172.72" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
-<label x="172.72" y="66.04" size="1.778" layer="95"/>
+<pinref part="M5" gate="G$1" pin="A3"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="172.72" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+<label x="172.72" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I10"/>
+<wire x1="392.43" y1="218.44" x2="402.59" y2="218.44" width="0.1524" layer="91"/>
+<label x="398.78" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B15" class="0">
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I14"/>
-<wire x1="392.43" y1="208.28" x2="402.59" y2="208.28" width="0.1524" layer="91"/>
-<label x="398.78" y="208.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S_B15" gate="G$1" pin="3"/>
 <wire x1="530.86" y1="87.63" x2="537.21" y2="87.63" width="0.1524" layer="91"/>
@@ -25025,15 +25026,20 @@ Footprint without programming pads</description>
 <label x="530.86" y="82.55" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="A0"/>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="172.72" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
-<label x="172.72" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S15" gate="G$1" pin="OUT"/>
 <wire x1="393.7" y1="86.36" x2="401.32" y2="86.36" width="0.1524" layer="91"/>
 <label x="396.24" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="A5"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+<label x="172.72" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I9"/>
+<wire x1="392.43" y1="220.98" x2="402.59" y2="220.98" width="0.1524" layer="91"/>
+<label x="398.78" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B16" class="0">
@@ -25041,11 +25047,6 @@ Footprint without programming pads</description>
 <pinref part="S16" gate="G$1" pin="OUT"/>
 <wire x1="419.1" y1="86.36" x2="411.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="414.02" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BALL_MUX" gate="G$1" pin="I15"/>
-<wire x1="392.43" y1="205.74" x2="402.59" y2="205.74" width="0.1524" layer="91"/>
-<label x="398.78" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="S_B16" gate="G$1" pin="3"/>
@@ -25058,10 +25059,15 @@ Footprint without programming pads</description>
 <label x="459.74" y="64.77" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="172.72" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="M5" gate="G$1" pin="D13"/>
-<label x="172.72" y="60.96" size="1.778" layer="95"/>
+<pinref part="M5" gate="G$1" pin="A4"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="83.82" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+<label x="172.72" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BALL_MUX" gate="G$1" pin="I8"/>
+<wire x1="392.43" y1="223.52" x2="402.59" y2="223.52" width="0.1524" layer="91"/>
+<label x="398.78" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -25401,10 +25407,10 @@ Footprint without programming pads</description>
 <label x="458.47" y="16.51" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="14/A0/TX3"/>
-<pinref part="SV3" gate="G$1" pin="12"/>
-<wire x1="76.2" y1="55.88" x2="90.17" y2="55.88" width="0.1524" layer="91"/>
-<label x="78.74" y="55.88" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="15/A1/TX3"/>
+<pinref part="SV6" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="58.42" x2="90.17" y2="58.42" width="0.1524" layer="91"/>
+<label x="78.74" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S_OUT" class="0">
@@ -25414,10 +25420,10 @@ Footprint without programming pads</description>
 <label x="458.47" y="13.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="15/A1/TX3"/>
-<pinref part="SV6" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="58.42" x2="90.17" y2="58.42" width="0.1524" layer="91"/>
-<label x="78.74" y="58.42" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="14/A0/TX3"/>
+<pinref part="SV3" gate="G$1" pin="12"/>
+<wire x1="76.2" y1="55.88" x2="90.17" y2="55.88" width="0.1524" layer="91"/>
+<label x="78.74" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N_IN" class="0">
@@ -25427,10 +25433,10 @@ Footprint without programming pads</description>
 <label x="458.47" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="18/A4/SDA"/>
-<pinref part="SV6" gate="G$1" pin="4"/>
-<wire x1="76.2" y1="66.04" x2="90.17" y2="66.04" width="0.1524" layer="91"/>
-<label x="78.74" y="66.04" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="19/A5/SCL"/>
+<pinref part="SV6" gate="G$1" pin="5"/>
+<wire x1="76.2" y1="68.58" x2="90.17" y2="68.58" width="0.1524" layer="91"/>
+<label x="78.74" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N_OUT" class="0">
@@ -25440,10 +25446,10 @@ Footprint without programming pads</description>
 <label x="458.47" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="19/A5/SCL"/>
-<pinref part="SV6" gate="G$1" pin="5"/>
-<wire x1="76.2" y1="68.58" x2="90.17" y2="68.58" width="0.1524" layer="91"/>
-<label x="78.74" y="68.58" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="18/A4/SDA"/>
+<pinref part="SV6" gate="G$1" pin="4"/>
+<wire x1="76.2" y1="66.04" x2="90.17" y2="66.04" width="0.1524" layer="91"/>
+<label x="78.74" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="E_IN" class="0">
@@ -25453,10 +25459,10 @@ Footprint without programming pads</description>
 <label x="478.79" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="16/A2/RX4/SCL1"/>
-<pinref part="SV6" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="60.96" x2="90.17" y2="60.96" width="0.1524" layer="91"/>
-<label x="78.74" y="60.96" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="17/A3/TX4/SDA1"/>
+<pinref part="SV6" gate="G$1" pin="3"/>
+<wire x1="76.2" y1="63.5" x2="90.17" y2="63.5" width="0.1524" layer="91"/>
+<label x="78.74" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="E_OUT" class="0">
@@ -25466,10 +25472,10 @@ Footprint without programming pads</description>
 <label x="478.79" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="17/A3/TX4/SDA1"/>
-<pinref part="SV6" gate="G$1" pin="3"/>
-<wire x1="76.2" y1="63.5" x2="90.17" y2="63.5" width="0.1524" layer="91"/>
-<label x="78.74" y="63.5" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="16/A2/RX4/SCL1"/>
+<pinref part="SV6" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="60.96" x2="90.17" y2="60.96" width="0.1524" layer="91"/>
+<label x="78.74" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="W_IN" class="0">
@@ -25479,10 +25485,10 @@ Footprint without programming pads</description>
 <label x="478.79" y="16.51" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="40/A16"/>
-<pinref part="SV3" gate="G$1" pin="8"/>
-<wire x1="76.2" y1="45.72" x2="90.17" y2="45.72" width="0.1524" layer="91"/>
-<label x="78.74" y="45.72" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="41/A17"/>
+<pinref part="SV3" gate="G$1" pin="9"/>
+<wire x1="76.2" y1="48.26" x2="90.17" y2="48.26" width="0.1524" layer="91"/>
+<label x="78.74" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="W_OUT" class="0">
@@ -25492,10 +25498,10 @@ Footprint without programming pads</description>
 <label x="478.79" y="13.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="41/A17"/>
-<pinref part="SV3" gate="G$1" pin="9"/>
-<wire x1="76.2" y1="48.26" x2="90.17" y2="48.26" width="0.1524" layer="91"/>
-<label x="78.74" y="48.26" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="40/A16"/>
+<pinref part="SV3" gate="G$1" pin="8"/>
+<wire x1="76.2" y1="45.72" x2="90.17" y2="45.72" width="0.1524" layer="91"/>
+<label x="78.74" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -25978,14 +25984,6 @@ Footprint without programming pads</description>
 <wire x1="419.1" y1="186.69" x2="419.1" y2="189.23" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="SW_BALL" gate="BEF1" pin="O"/>
-<wire x1="416.56" y1="200.66" x2="419.1" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="R_BALL" gate="G$1" pin="2"/>
-<wire x1="419.1" y1="200.66" x2="419.1" y2="199.39" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="R_DIG" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="7"/>
@@ -26149,13 +26147,6 @@ Footprint without programming pads</description>
 <label x="78.74" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$116" class="0">
-<segment>
-<pinref part="M5" gate="G$1" pin="A6"/>
-<pinref part="J2" gate="J$1" pin="2"/>
-<wire x1="162.56" y1="38.1" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="A_TX" class="0">
 <segment>
 <pinref part="SV4" gate="G$1" pin="12"/>
@@ -26182,13 +26173,6 @@ Footprint without programming pads</description>
 <pinref part="U$1" gate="G$1" pin="29/TX7"/>
 <wire x1="15.24" y1="36.83" x2="27.94" y2="36.83" width="0.1524" layer="91"/>
 <label x="15.24" y="36.83" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$117" class="0">
-<segment>
-<pinref part="M5" gate="G$1" pin="A7"/>
-<pinref part="J2" gate="J$1" pin="3"/>
-<wire x1="165.1" y1="38.1" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_PWM" class="0">
@@ -26445,6 +26429,14 @@ Footprint without programming pads</description>
 <pinref part="L_SW3" gate="G$1" pin="C"/>
 <pinref part="R_SW3" gate="G$1" pin="2"/>
 <wire x1="500.38" y1="213.36" x2="501.65" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BX" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="172.72" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="M5" gate="G$1" pin="D13"/>
+<label x="172.72" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
