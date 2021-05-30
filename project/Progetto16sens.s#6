@@ -22985,6 +22985,9 @@ Footprint without programming pads</description>
 <part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -23929,6 +23932,18 @@ Footprint without programming pads</description>
 <instance part="R4" gate="G$1" x="294.64" y="172.72" smashed="yes">
 <attribute name="NAME" x="292.862" y="169.926" size="1.778" layer="95"/>
 <attribute name="VALUE" x="290.83" y="169.418" size="1.778" layer="96"/>
+</instance>
+<instance part="C21" gate="G$1" x="5.08" y="101.6" smashed="yes">
+<attribute name="NAME" x="6.604" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.604" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="C22" gate="G$1" x="15.24" y="101.6" smashed="yes">
+<attribute name="NAME" x="16.764" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="16.764" y="96.901" size="1.778" layer="96"/>
+</instance>
+<instance part="C23" gate="G$1" x="35.56" y="106.68" smashed="yes">
+<attribute name="NAME" x="37.084" y="107.061" size="1.778" layer="95"/>
+<attribute name="VALUE" x="37.084" y="101.981" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>

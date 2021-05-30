@@ -24732,15 +24732,6 @@ Footprint without programming pads</description>
 <wire x1="514.35" y1="224.79" x2="514.35" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="M5" gate="G$1" pin="VCC"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="172.72" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="+3V22" gate="G$1" pin="+3V3"/>
-<wire x1="179.07" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="73.66" x2="177.8" y2="97.79" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BALL_TAKE" gate="G$1" pin="1"/>
 <wire x1="457.2" y1="152.4" x2="468.63" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="468.63" y1="152.4" x2="468.63" y2="157.48" width="0.1524" layer="91"/>
@@ -24773,6 +24764,15 @@ Footprint without programming pads</description>
 <wire x1="78.74" y1="101.6" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <junction x="78.74" y="81.28"/>
 <junction x="26.67" y="101.6"/>
+</segment>
+<segment>
+<pinref part="M5" gate="G$1" pin="VCC"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="172.72" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="+3V22" gate="G$1" pin="+3V3"/>
+<wire x1="177.8" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="97.79" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
+<junction x="177.8" y="73.66"/>
 </segment>
 </net>
 <net name="PWR_B3" class="0">
@@ -26140,20 +26140,6 @@ Footprint without programming pads</description>
 <label x="457.2" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="M5" gate="G$1" pin="RAW"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="172.72" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="M5" gate="G$1" pin="RST.2"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="172.72" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SW1" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="3"/>
@@ -26206,13 +26192,6 @@ Footprint without programming pads</description>
 <wire x1="492.76" y1="213.36" x2="491.49" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="491.49" y1="213.36" x2="491.49" y2="222.25" width="0.1524" layer="91"/>
 <junction x="491.49" y="222.25"/>
-</segment>
-</net>
-<net name="N$85" class="0">
-<segment>
-<pinref part="SV4" gate="G$1" pin="10"/>
-<pinref part="M5" gate="G$1" pin="RST.1"/>
-<wire x1="129.54" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BALL_OUT" class="0">

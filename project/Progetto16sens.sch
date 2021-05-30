@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -23773,8 +23773,8 @@ Footprint without programming pads</description>
 <instance part="GND24" gate="1" x="27.94" y="12.7" smashed="yes">
 <attribute name="VALUE" x="25.4" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V16" gate="G$1" x="6.35" y="107.95" smashed="yes">
-<attribute name="VALUE" x="3.81" y="104.14" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V16" gate="G$1" x="5.08" y="107.95" smashed="yes">
+<attribute name="VALUE" x="2.54" y="104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J2" gate="J$1" x="162.56" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="168.148" y="25.4" size="1.778" layer="95" font="vector" rot="MR90"/>
@@ -24444,9 +24444,12 @@ Footprint without programming pads</description>
 <pinref part="J1" gate="G$1" pin="4"/>
 <pinref part="M5" gate="G$1" pin="GND.2"/>
 <wire x1="172.72" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="78.74" x2="180.34" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="78.74" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="76.2" x2="180.34" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="19.05" x2="152.4" y2="19.05" width="0.1524" layer="91"/>
 <junction x="180.34" y="78.74"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<junction x="180.34" y="76.2"/>
 </segment>
 <segment>
 <pinref part="SG1" gate="G$1" pin="2"/>
@@ -24738,32 +24741,35 @@ Footprint without programming pads</description>
 <pinref part="+3V23" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="+3V16" gate="G$1" pin="+3V3"/>
-<wire x1="6.35" y1="105.41" x2="6.35" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="6.35" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="101.6" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
-<junction x="10.16" y="101.6"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
-<junction x="15.24" y="101.6"/>
-<wire x1="20.32" y1="101.6" x2="26.67" y2="101.6" width="0.1524" layer="91"/>
-<junction x="20.32" y="101.6"/>
+<wire x1="20.32" y1="101.6" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<junction x="15.24" y="104.14"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="101.6" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<junction x="10.16" y="104.14"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="101.6" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<wire x1="5.08" y1="105.41" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="104.14" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
 <pinref part="SV2" gate="G$1" pin="10"/>
 <wire x1="15.24" y1="52.07" x2="26.67" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="26.67" y1="52.07" x2="27.94" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="26.67" y1="52.07" x2="26.67" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="52.07" x2="26.67" y2="104.14" width="0.1524" layer="91"/>
 <junction x="26.67" y="52.07"/>
-<wire x1="26.67" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3V3_1"/>
 <pinref part="SV6" gate="G$1" pin="10"/>
+<wire x1="26.67" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="81.28" x2="90.17" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="101.6" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="104.14" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <junction x="78.74" y="81.28"/>
-<junction x="26.67" y="101.6"/>
+<wire x1="26.67" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<junction x="26.67" y="104.14"/>
+<junction x="20.32" y="104.14"/>
 </segment>
 <segment>
 <pinref part="M5" gate="G$1" pin="VCC"/>
